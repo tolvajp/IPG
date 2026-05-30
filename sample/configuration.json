@@ -1,0 +1,172 @@
+{
+    "Scopes": [
+        {
+            "Name": "Workstation",
+            "GroupName": "ConfigurationPolicyScope-Workstation",
+            "Products": [
+                {
+                    "Name": "Windows",
+                    "Domains": [
+                        "Security",
+                        "UpdateServicing",
+                        "PlatformOperations"
+                    ]
+                },
+                {
+                    "Name": "Edge",
+                    "Domains": [
+                        "Security",
+                        "IdentityProfile",
+                        "PlatformIntegration",
+                        "UserExperience"
+                    ]
+                },
+                {
+                    "Name": "Defender",
+                    "Domains": [
+                        "Prevention",
+                        "AttackSurfaceReduction",
+                        "DetectionResponse"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Employee",
+            "GroupName": "ConfigurationPolicyScope-Employee",
+            "Products": [
+                {
+                    "Name": "Edge",
+                    "Domains": [
+                        "Security",
+                        "IdentityProfile",
+                        "PlatformIntegration",
+                        "UserExperience"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Admin",
+            "GroupName": "ConfigurationPolicyScope-Admin",
+            "Products": [
+                {
+                    "Name": "Edge",
+                    "Domains": [
+                        "Security",
+                        "IdentityProfile",
+                        "PlatformIntegration",
+                        "UserExperience"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Contractor",
+            "GroupName": "ConfigurationPolicyScope-Contractor",
+            "Products": [
+                {
+                    "Name": "Edge",
+                    "Domains": [
+                        "Security",
+                        "IdentityProfile",
+                        "UserExperience"
+                    ]
+                }
+            ]
+        }
+    ],
+    "Modes": [
+        "ADD",
+        "MUX"
+    ],
+    "ValidScopeCombinations": [
+        "Workstation-Employee",
+        "Workstation-Admin",
+        "Workstation-Contractor"
+    ],
+    "DaysBeforeExpirationAlert": 30,
+    "Documentation": "https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md",
+    "MaxAllowedReviewIntervalInDays": 365,
+    "RolloutMaxAllowedReviewIntervalInDays": 30,
+    "ReportBeforeReviewDateInDays": 30,
+    "RolloutReportBeforeReviewDateInDays": 7,
+    "TenantID": "168a3426-0f87-4294-b358-2825cc292392",
+    "RequiredScopes": [
+        "DeviceManagementConfiguration.Read.All",
+        "Group.Read.All",
+        "DeviceManagementManagedDevices.Read.All",
+        "GroupMember.Read.All"
+    ],
+    "ReasonCatalog": {
+        "ConfigurationFileNotFound": "Configuration file not found.",
+        "ConfigurationFileLoadFailed": "Failed to load configuration file.",
+        "DefaultAudienceUsedWithADD": "Default audience is only valid for MUX policies.",
+        "MissingRequiredConfigurationProperty": "Missing required configuration property.",
+        "TenantIdEmpty": "TenantID property must not be empty.",
+        "TenantIdInvalidGuid": "TenantID property must be a valid GUID.",
+        "RequiredScopesNotCollection": "RequiredScopes property must be a collection.",
+        "RequiredScopesEmpty": "RequiredScopes property must not be empty.",
+        "RequiredScopesContainsEmptyValue": "RequiredScopes property contains an empty value.",
+        "ScopesNotCollection": "Scopes property must be a collection.",
+        "ScopeNameMissing": "Scope contains missing or empty Name property.",
+        "ScopeGroupNameMissing": "Scope contains missing or empty GroupName property.",
+        "ScopeProductsInvalid": "Scope contains invalid Products property.",
+        "ScopeGroupResolveFailed": "Failed to resolve group.",
+        "ScopeGroupNotFound": "Group does not exist.",
+        "ScopeGroupEmpty": "Group does not contain members.",
+        "InvalidPolicyNamePartCount": "Name not compliant. Not the right number of parts.",
+        "InvalidScope": "Invalid scope",
+        "InvalidProduct": "Invalid product",
+        "InvalidDomain": "Invalid domain",
+        "InvalidMode": "Invalid mode",
+        "MissingAudience": "Audience is missing.",
+        "DefaultAudienceUsedOutsideMUX": "Default audience is only valid for MUX policies.",
+        "InvalidDescriptionPartCount": "Description not compliant. Not the right number of parts.",
+        "InvalidReviewDateFormat": "Invalid review date format in description.",
+        "MissingTicketNumber": "Ticket number is missing in description.",
+        "MissingPolicyReason": "Reason is missing in description.",
+        "AddAssignedGroupHasMembersOutOfScope": "ADD policy is assigned to group that has members out of scope.",
+        "AddAudiencePolicyAssignedToScopeTargetGroup": "ADD audience policy is assigned to the scope target group.",
+        "AddAudiencePolicyHasExcludedGroup": "ADD audience policy has excluded groups.",
+        "AddBaselinePolicyAssignedToMultipleGroups": "ADD baseline policy is assigned to multiple groups.",
+        "AddBaselinePolicyAssignedToWrongGroup": "ADD baseline policy is assigned to the wrong group.",
+        "AddBaselinePolicyHasExcludedGroup": "ADD baseline policy has excluded groups.",
+        "AddDefaultPolicyNotSupportedInAddMode": "Default audience is not supported in ADD mode.",
+        "AddPolicyAssignedToEmptyGroup": "ADD policy is assigned to an empty group.",
+        "AddPolicyAssignmentMissing": "ADD policy does not have required assignment.",
+        "AddPolicyHasNoGroupAssignment": "ADD policy has no group assignment.",
+        "MuxAssignedGroupHasMembersOutOfScope": "MUX policy is assigned to group that has members out of scope.",
+        "MuxBaselineAndPermanentAudienceCoexist": "MUX baseline and permanent audience policies coexist.",
+        "MuxBaselinePolicyAssignedToWrongGroup": "MUX baseline policy is assigned to the wrong group.",
+        "MuxBaselinePolicyHasUnexpectedExclusions": "MUX baseline policy has unexpected exclusions.",
+        "MuxBaselinePolicyMissingExpectedExclusions": "MUX baseline policy is missing expected exclusions.",
+        "MuxCustomAudienceGroupsHaveOverlappingMembers": "MUX custom audience groups have overlapping members.",
+        "MuxCustomPolicyAssignedToScopeTargetGroup": "MUX custom policy is assigned to the scope target group.",
+        "MuxCustomPolicyHasUnexpectedExclusions": "MUX custom policy has unexpected exclusions.",
+        "MuxCustomPolicyMissingExpectedExclusions": "MUX custom policy is missing expected exclusions.",
+        "MuxDefaultPolicyAssignedToWrongGroup": "MUX default policy is assigned to the wrong group.",
+        "MuxDefaultPolicyHasUnexpectedExclusions": "MUX default policy has unexpected exclusions.",
+        "MuxDefaultPolicyMissingExpectedExclusions": "MUX default policy is missing expected exclusions.",
+        "MuxDefaultPolicyWithoutCustomAudience": "MUX default policy exists without custom audience.",
+        "MuxPermanentAudienceMissingDefaultPolicy": "MUX permanent audience policies exist without default policy.",
+        "MuxPolicyAssignedToEmptyGroup": "MUX policy is assigned to an empty group.",
+        "MuxPolicyAssignedToMultipleGroups": "MUX policy is assigned to multiple groups.",
+        "MuxPolicyHasNoGroupAssignment": "MUX policy has no group assignment.",
+        "MuxRolloutGroupsHaveOverlappingMembers": "MUX rollout groups have overlapping members.",
+        "MuxRolloutPolicyHasExcludedGroup": "MUX rollout policy has excluded groups.",
+        "ReviewDateExpired": "Expired",
+        "ReviewDateBeyondAllowedInterval": "Review date is beyond the allowed interval.",
+        "ReviewDateApproaching": "Review date is approaching.",
+        "PotentialScopeCombinationConflict": "Scopes might be applied together. For this setting both are used. This might lead to conflict.",
+        "MixedAssignmentModesForSetting": "Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?",
+        "MultipleGovernanceNamespacesForSettingScope": "Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?",
+        "BaselineMuxSettingHasAdditionalAudiences": "If baseline sets a MUX setting, no other audience can set the same setting within scope.",
+        "MissingBaselineOrDefaultAudienceForMuxSetting": "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.",
+        "ObjectInMultipleScopeGroups": "User or device object is in multiple scopes.",
+        "ReferencedAssignmentGroupNotFound": "Policy is assigned to a group that is deleted. Please remove the assignment."
+    },
+    "NameRegexPattern": "^(?<Scope>[^-]+)-(?<Product>[^-]+)-(?<Domain>[^-]+)(?:-(?<SubDomain>[^-]+))?-(?<Audience>[^-]*)-(?<Mode>[^-]+)$",
+    "DescriptionRegexPattern": "^(?<ReviewDate>[^|]*)\\|(?<TicketNumber>[^|]*)\\|(?<PolicyReason>.*)$",
+    "ADD-MUXDistinction": true
+}
