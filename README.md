@@ -12,8 +12,8 @@ The framework turns technical policy sprawl into a structured governance problem
 
 Sample artifacts:
 
-- [sample JSON audit result](./sampleOutputs/LiveTenant/Output/result.json)
-- [sample operational email report](./sampleOutputs/LiveTenant/Output/MailReport.png)
+- [sample JSON audit result](./sample/outputs/outputs/LiveTenant/Output/result.json)
+- [sample operational email report](./sample/outputs/LiveTenant/Output/MailReport.png)
 
 The current implementation focuses on modern CSP-based Microsoft Intune configuration policies. The included scopes, products, domains, groups, and policy examples are sample governance data, not framework limitations. The architect defines the actual governance model.
 
@@ -68,10 +68,10 @@ This repository currently includes an implemented operational email report layer
 
 Examples:
 
-- [sample JSON audit result](./sampleOutputs/LiveTenant/Output/result.json)
-- [sample operational email report](./sampleOutputs/LiveTenant/Output/MailReport.png)
+- [sample JSON audit result](./sample/outputs/LiveTenant/Output/result.json)
+- [sample operational email report](./sample/outputs/LiveTenant/Output/MailReport.png)
 
-An exported sample dataset is also available for offline validation and testing: [sample exported dataset](./sampleOutputs/AllAvailableTestsFromMockedTenant/TestData.json).
+An exported sample dataset is also available for offline validation and testing: [sample exported dataset](./sample/outputs/AllAvailableTestsFromMockedTenant/TestData.json).
 
 ## Governance and change management
 
@@ -91,29 +91,7 @@ It helps make exceptions visible before they silently become permanent and helps
 
 Skipping audits does not remove the pain. It turns governance debt into operational pain: incidents, user complaints, cleanup projects, migration blockers, compliance findings, and security review issues. When that happens, the operational team usually pays the price, even if they did not fully design or own the policy estate.
 
-## Usage, runtime, and permissions
-
-Target runtime: PowerShell 7.2.
-
-PowerShell 7.2 is used because it is natively supported by Azure Automation runbooks.
-
-Import the module:
-
-```powershell
-Import-Module ./src/IPG/IPG.psd1 -Force
-```
-
-Run the audit against a live tenant:
-
-```powershell
-$result = Start-IPGConfigurationPolicyAudit -ConfigPath ./src/IPG/Config/configuration.json
-```
-
-Run the audit against an exported dataset:
-
-```powershell
-$result = Start-IPGConfigurationPolicyAudit -ConfigPath ./src/IPG/Config/configuration.json -DatasetPath ./sampleOutputs/AllAvailableTestsFromMockedTenant/TestData.json
-```
+## Permissions
 
 For read-only audit execution, the expected Microsoft Graph permissions are:
 
@@ -128,7 +106,6 @@ For operational email reporting, the execution identity also needs:
 
 No write permission to Intune configuration policies is required for the audit path.
 
-For Azure Automation execution, use managed identity authentication. See the [Azure Automation execution model](./docs/AzureAutomation.md).
 
 ## Documentation
 
@@ -137,7 +114,6 @@ For Azure Automation execution, use managed identity authentication. See the [Az
 - [Configuration JSON maintenance](./docs/ConfigurationJsonMaintenance.md)
 - [Standard operational procedures](./docs/StandardOperationalProcedures.md)
 - [Azure Automation execution model](./docs/AzureAutomation.md)
-- [PowerShell module reference](./src/IPG/README.md)
 - [Changelog](./docs/CHANGELOG.md)
 
 ## Experience-informed design
@@ -146,11 +122,6 @@ This model is informed by practical platform-engineering experience in regulated
 
 The goal is to apply lessons from environments where configuration drift matters, ownership ambiguity creates risk, auditability is required, change control must be explainable, and operational teams need actionable remediation instead of vague reports.
 
-## Project status
-
-The core implementation is in place: the governance model, PowerShell audit module, standardized JSON problem catalog, sample outputs, operational email reporting, Azure Automation model, GitHub Actions, and Pester validation.
-
-The current focus is documentation, screenshots, sample findings, example exports, and practical review material.
 
 ## Professional availability
 

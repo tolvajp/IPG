@@ -5,6 +5,8 @@
 >
 > These policies are excluded from the remaining audit checks because IPG cannot safely evaluate their assignment topology, review intervals, scope overlap, or setting conflicts. Fix metadata parsing issues first; the rest of the audit result may change afterwards.
 
+Mandatory part of the naming conveention: scope, product, domain.
+
 ## 1. Purpose
 
 This document explains the Configuration Policy Governance Model.
