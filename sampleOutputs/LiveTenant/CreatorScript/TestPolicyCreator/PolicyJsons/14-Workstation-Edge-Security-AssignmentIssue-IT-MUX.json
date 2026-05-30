@@ -1,0 +1,44 @@
+{
+  "name": "Workstation-Edge-Security-AssignmentIssue-IT-MUX",
+  "description": "01-11-2026|SCTASK-IPG-TEST|Controlled broken IPG test policy",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none"
+  },
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_showrecommendationsenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_showrecommendationsenabled_0",
+          "children": []
+        }
+      }
+    }
+  ],
+  "expectedIssue": "Assignment validation target: audience policy assigned to scope group and out-of-scope/empty groups.",
+  "assignmentTestMetadata": [
+    {
+      "targetGroupDisplayName": "ConfigurationPolicyScope-Workstation",
+      "assignmentType": "Include"
+    },
+    {
+      "targetGroupDisplayName": "IPG-Test-Audience-Empty",
+      "assignmentType": "Include"
+    },
+    {
+      "targetGroupDisplayName": "IPG-Test-Audience-OutOfScope",
+      "assignmentType": "Include"
+    }
+  ]
+}

@@ -1,0 +1,361 @@
+Received: from AS8PR07MB8233.eurprd07.prod.outlook.com (2603:10a6:20b:378::21)
+ by DB5PR07MB11957.eurprd07.prod.outlook.com with HTTPS; Sat, 30 May 2026
+ 09:46:56 +0000
+Received: from DB5PR07MB11957.eurprd07.prod.outlook.com (2603:10a6:10:655::18)
+ by AS8PR07MB8233.eurprd07.prod.outlook.com (2603:10a6:20b:378::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.16; Sat, 30 May
+ 2026 09:46:55 +0000
+Received: from DB5PR07MB11957.eurprd07.prod.outlook.com
+ ([fe80::f71b:aa56:fe49:48c7]) by DB5PR07MB11957.eurprd07.prod.outlook.com
+ ([fe80::f71b:aa56:fe49:48c7%5]) with mapi id 15.21.0071.014; Sat, 30 May 2026
+ 09:46:55 +0000
+From: Peter Tolvaj <tolvajp@petertolvaj.nl>
+To: Peter Tolvaj <tolvajp@petertolvaj.nl>
+Subject: IPG audit result - 30/05/2026 11:46
+Thread-Topic: IPG audit result - 30/05/2026 11:46
+Thread-Index: AQHc8BlA3bBXuvDC7UuwlIoTJEyVZw==
+Date: Sat, 30 May 2026 09:46:55 +0000
+Message-ID:
+	<DB5PR07MB11957D636032458F250FBF7E8D0172@DB5PR07MB11957.eurprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource:
+	DB5PR07MB11957.eurprd07.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	0d709617-2d26-4124-76bb-08debe3062c2
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	pF5qs3EgCfkDaLB8yB4suVod7CkQqW6mvqAr4WGTVgRzumliDAjMzqYslMe0PMKcyhnD4pUeb5ObsAqMuBEmaDAL+TXeYCDzd+42JQWiGOJOxXu+l4su/ssCev7mgzh99L5xomYv7/435YubbjKSx+etmk9T1ULR0bYUT0M+26eMFtR4mxTykKN7kHJOAM5PWx7YGFpBqAzhPpHh9psLMAzqwqi89EgyAqJRi/MO+YEdsrZroQW5H3kib9bSL5EAQD/8FWJzqGcGTcSBcoBz14oYJPrqJE/Q7sJHNno8jt25gVJn84RaWkfwJOSAaxJblLeyM4V6m+RZzyqrmnRa+vniN9X4Dgc0nqdmq7IM06t162KjMP3bZPOwZdCWQe3E4GgxEuiY0VaY7gc3P1MCXv6KhT2wY1GAowfMR/q0eSZzuPMO+BsQ+SuVhvaUfiOaHTjnFRj9yEMT3qDIvTiYT0FObXADgHACmSGm/4mQaGnlLnCVWIEA8SFyCNT7q4OrQ409pz0jvpeIorzxpeGnQusz0Lae4ENzuY3SOZSE4W8UyJw/T6vNCeXJJ6jRwFKDIIudRQAee032vVByu8k1MWQlIKSMJirJITz79kqYsfUNNfdqMZ2+mh8fHyl5P/3eAW4bRJYbCwFRpKrvC2VCS1rdFy7Sn8EY3x7l89UWTwnSo/tM8qwsAcxeBVgj12bD1o6c/lxrpvEo8BWa7o5irdwgDe7D0+8U8Lyf39fpM3Q1ZkyUTqAJPIkUGdTx7S8fxaS3PQ7lRBd9d/zG2zJdjCFNa0eHIKn2TCYiOCiy05rPxQ0v/4+uqPcN1kEMGb+u
+Content-Type: multipart/alternative;
+	boundary="_000_DB5PR07MB11957D636032458F250FBF7E8D0172DB5PR07MB11957eu_"
+MIME-Version: 1.0
+
+--_000_DB5PR07MB11957D636032458F250FBF7E8D0172DB5PR07MB11957eu_
+Content-Type: text/plain; charset="us-ascii"
+
+Good morning team!
+
+IPG audit result - 30/05/2026 11:46
+
+Metadata Parsing Issues
+
+Policies listed in this section could not be parsed correctly and were excluded from the remaining audit checks.
+
+Id      Name    Reasons
+0aef801c-7bc2-45f0-93cf-ff130da6c5d0    Workstation-Edge-Security-Smartscreen-Baseline-BADMODE  Invalid mode
+1a936f15-77d7-410a-88e5-c892bd126731    Workstation-Edge-Security-MissingTicket-Baseline-MUX    Ticket number is missing in description.
+47779c81-bd29-4593-9f93-9f055c4d0337    BrokenPolicyName        Name not compliant. Not the right number of parts.
+548f3fa3-3425-495d-8bdd-46346787571b    Workstation-Edge-InvalidDomain-Smartscreen-Baseline-MUX Invalid domain
+7be38721-7a0a-4541-bcb9-e3d1ec62e461    Workstation-Edge-Security-BadDescription-Baseline-MUX   Description not compliant. Not the right number of parts.
+a9a582a8-0874-45b8-b273-47e1ce42d582    InvalidScope-Edge-Security-Smartscreen-Baseline-MUX     Invalid scope
+Per Setting Conflict Issues
+Passed  Reasons RelatedPolicies SettingEndpoint
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-AssignmentIssue-IT-MUX        device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_showrecommendationsenabled
+False
+
+  *   If baseline sets a MUX setting, no other audience can set the same setting within scope.
+  *   Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?
+
+  *   Workstation-Edge-Security-Smartscreen-IT-MUX
+  *   Workstation-Edge-UserExperience-Smartscreen-Baseline-MUX
+
+device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions
+False   Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?
+
+  *   Employee-Edge-PlatformIntegration-ExtensionGovernance-Baseline-ADD
+  *   Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX
+
+device_vendor_msft_policy_config_microsoft_edgev86~policy~microsoft_edge_enterprisemodesitelistmanagerallowed
+False   Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?
+
+  *   Workstation-Edge-Security-ExpiredReview-Baseline-MUX
+  *   Workstation-Edge-Security-TooFarReview-Baseline-MUX
+
+device_vendor_msft_policy_config_microsoft_edgev140~policy~microsoft_edge_httpsonlymode
+Review Interval Issues
+DaysUntilReview Passed  Reason  RelatedPolicy
+-880    False   Expired Workstation-Edge-Security-ExpiredReview-Baseline-MUX
+3137    False   Review date is beyond the allowed interval.     Workstation-Edge-Security-TooFarReview-Baseline-MUX
+Scope Overlap Issues
+Groups  Objects Reason
+
+  *   ConfigurationPolicyScope-Contractor
+  *   ConfigurationPolicyScope-Employee
+
+ipgtestuser08@petertolvaj.nl    User or device object is in multiple scopes.
+Policy Assignment Topology Issues
+Groups  Objects Policies        Reason
+
+  *   ConfigurationPolicyScope-Workstation
+  *   IPG-Test-Audience-Empty
+  *   IPG-Test-Audience-OutOfScope
+
+Workstation-Edge-Security-AssignmentIssue-IT-MUX        MUX policy is assigned to multiple groups.
+ConfigurationPolicyScope-Workstation            Workstation-Edge-Security-AssignmentIssue-IT-MUX        MUX custom policy is assigned to the scope target group.
+IPG-Test-Audience-Empty         Workstation-Edge-Security-AssignmentIssue-IT-MUX        MUX policy is assigned to an empty group.
+IPG-Test-Audience-Empty         Workstation-Edge-Security-AssignmentIssue-IT-MUX        Policy is assigned to a group that is deleted. Please remove the assignment.
+IPG-Test-Audience-IT
+
+  *   ipgtestuser01@petertolvaj.nl
+  *   ipgtestuser02@petertolvaj.nl
+
+Workstation-Edge-Security-Smartscreen-IT-MUX    MUX policy is assigned to group that has members out of scope.
+IPG-Test-Audience-OutOfScope
+
+  *   DESKTOP-PH38D4G
+  *   ipgtestuser10@petertolvaj.nl
+
+Workstation-Edge-Security-AssignmentIssue-IT-MUX        MUX policy is assigned to group that has members out of scope.
+IPG-Test-Unrelated-Group                Workstation-Edge-Security-DefaultExclude-Default-MUX    MUX default policy has unexpected exclusions.
+Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX    MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-AssignmentIssue-IT-MUX        MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-DefaultExclude-Default-MUX    MUX default policy exists without custom audience.
+Workstation-Edge-Security-Smartscreen-IT-MUX    MUX permanent audience policies exist without default policy.
+________________________________
+
+Documentation:
+
+https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md
+
+--_000_DB5PR07MB11957D636032458F250FBF7E8D0172DB5PR07MB11957eu_
+Content-Type: text/html; charset="us-ascii"
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px;">
+<p>Good morning team!</p>
+<p><strong>IPG audit result</strong> - 30/05/2026 11:46</p>
+<h2>Metadata Parsing Issues</h2>
+<p>Policies listed in this section could not be parsed correctly and were excluded from the remaining audit checks.</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Id</th>
+<th align="left">Name</th>
+<th align="left">Reasons</th>
+</tr>
+<tr>
+<td valign="top">0aef801c-7bc2-45f0-93cf-ff130da6c5d0</td>
+<td valign="top">Workstation-Edge-Security-Smartscreen-Baseline-BADMODE</td>
+<td valign="top">Invalid mode</td>
+</tr>
+<tr>
+<td valign="top">1a936f15-77d7-410a-88e5-c892bd126731</td>
+<td valign="top">Workstation-Edge-Security-MissingTicket-Baseline-MUX</td>
+<td valign="top">Ticket number is missing in description.</td>
+</tr>
+<tr>
+<td valign="top">47779c81-bd29-4593-9f93-9f055c4d0337</td>
+<td valign="top">BrokenPolicyName</td>
+<td valign="top">Name not compliant. Not the right number of parts.</td>
+</tr>
+<tr>
+<td valign="top">548f3fa3-3425-495d-8bdd-46346787571b</td>
+<td valign="top">Workstation-Edge-InvalidDomain-Smartscreen-Baseline-MUX</td>
+<td valign="top">Invalid domain</td>
+</tr>
+<tr>
+<td valign="top">7be38721-7a0a-4541-bcb9-e3d1ec62e461</td>
+<td valign="top">Workstation-Edge-Security-BadDescription-Baseline-MUX</td>
+<td valign="top">Description not compliant. Not the right number of parts.</td>
+</tr>
+<tr>
+<td valign="top">a9a582a8-0874-45b8-b273-47e1ce42d582</td>
+<td valign="top">InvalidScope-Edge-Security-Smartscreen-Baseline-MUX</td>
+<td valign="top">Invalid scope</td>
+</tr>
+</tbody>
+</table>
+<h2>Per Setting Conflict Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Passed</th>
+<th align="left">Reasons</th>
+<th align="left">RelatedPolicies</th>
+<th align="left">SettingEndpoint</th>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_showrecommendationsenabled</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">
+<ul>
+<li>If baseline sets a MUX setting, no other audience can set the same setting within scope.</li><li>Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?</li></ul>
+</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-Smartscreen-IT-MUX</li><li>Workstation-Edge-UserExperience-Smartscreen-Baseline-MUX</li></ul>
+</td>
+<td valign="top">device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?</td>
+<td valign="top">
+<ul>
+<li>Employee-Edge-PlatformIntegration-ExtensionGovernance-Baseline-ADD</li><li>Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX</li></ul>
+</td>
+<td valign="top">device_vendor_msft_policy_config_microsoft_edgev86~policy~microsoft_edge_enterprisemodesitelistmanagerallowed</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-ExpiredReview-Baseline-MUX</li><li>Workstation-Edge-Security-TooFarReview-Baseline-MUX</li></ul>
+</td>
+<td valign="top">device_vendor_msft_policy_config_microsoft_edgev140~policy~microsoft_edge_httpsonlymode</td>
+</tr>
+</tbody>
+</table>
+<h2>Review Interval Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">DaysUntilReview</th>
+<th align="left">Passed</th>
+<th align="left">Reason</th>
+<th align="left">RelatedPolicy</th>
+</tr>
+<tr>
+<td valign="top">-880</td>
+<td valign="top">False</td>
+<td valign="top">Expired</td>
+<td valign="top">Workstation-Edge-Security-ExpiredReview-Baseline-MUX</td>
+</tr>
+<tr>
+<td valign="top">3137</td>
+<td valign="top">False</td>
+<td valign="top">Review date is beyond the allowed interval.</td>
+<td valign="top">Workstation-Edge-Security-TooFarReview-Baseline-MUX</td>
+</tr>
+</tbody>
+</table>
+<h2>Scope Overlap Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Groups</th>
+<th align="left">Objects</th>
+<th align="left">Reason</th>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>ConfigurationPolicyScope-Contractor</li><li>ConfigurationPolicyScope-Employee</li></ul>
+</td>
+<td valign="top">ipgtestuser08@petertolvaj.nl</td>
+<td valign="top">User or device object is in multiple scopes.</td>
+</tr>
+</tbody>
+</table>
+<h2>Policy Assignment Topology Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Groups</th>
+<th align="left">Objects</th>
+<th align="left">Policies</th>
+<th align="left">Reason</th>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>ConfigurationPolicyScope-Workstation</li><li>IPG-Test-Audience-Empty</li><li>IPG-Test-Audience-OutOfScope</li></ul>
+</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">MUX policy is assigned to multiple groups.</td>
+</tr>
+<tr>
+<td valign="top">ConfigurationPolicyScope-Workstation</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">MUX custom policy is assigned to the scope target group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Test-Audience-Empty</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">MUX policy is assigned to an empty group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Test-Audience-Empty</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Test-Audience-IT</td>
+<td valign="top">
+<ul>
+<li>ipgtestuser01@petertolvaj.nl</li><li>ipgtestuser02@petertolvaj.nl</li></ul>
+</td>
+<td valign="top">Workstation-Edge-Security-Smartscreen-IT-MUX</td>
+<td valign="top">MUX policy is assigned to group that has members out of scope.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Test-Audience-OutOfScope</td>
+<td valign="top">
+<ul>
+<li>DESKTOP-PH38D4G</li><li>ipgtestuser10@petertolvaj.nl</li></ul>
+</td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">MUX policy is assigned to group that has members out of scope.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Test-Unrelated-Group</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-DefaultExclude-Default-MUX</td>
+<td valign="top">MUX default policy has unexpected exclusions.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AssignmentIssue-IT-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-DefaultExclude-Default-MUX</td>
+<td valign="top">MUX default policy exists without custom audience.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-Smartscreen-IT-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Documentation:</strong></p>
+<p><a href="https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md">https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md</a></p>
+</body>
+</html>
+
+--_000_DB5PR07MB11957D636032458F250FBF7E8D0172DB5PR07MB11957eu_--

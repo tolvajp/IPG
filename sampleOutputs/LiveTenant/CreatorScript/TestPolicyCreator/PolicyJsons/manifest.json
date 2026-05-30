@@ -1,0 +1,77 @@
+[
+  {
+    "file": "01-BrokenPolicyName.json",
+    "name": "BrokenPolicyName",
+    "expectedIssue": "Invalid policy name element count / naming convention failure."
+  },
+  {
+    "file": "02-InvalidScope-Edge-Security-Smartscreen-Baseline-MUX.json",
+    "name": "InvalidScope-Edge-Security-Smartscreen-Baseline-MUX",
+    "expectedIssue": "Invalid Scope value."
+  },
+  {
+    "file": "03-Workstation-Edge-InvalidDomain-Smartscreen-Baseline-MUX.json",
+    "name": "Workstation-Edge-InvalidDomain-Smartscreen-Baseline-MUX",
+    "expectedIssue": "Invalid Domain value for Workstation/Edge."
+  },
+  {
+    "file": "04-Workstation-Edge-Security-Smartscreen-Baseline-BADMODE.json",
+    "name": "Workstation-Edge-Security-Smartscreen-Baseline-BADMODE",
+    "expectedIssue": "Invalid Mode value."
+  },
+  {
+    "file": "05-Workstation-Edge-Security-ExpiredReview-Baseline-MUX.json",
+    "name": "Workstation-Edge-Security-ExpiredReview-Baseline-MUX",
+    "expectedIssue": "Expired review date."
+  },
+  {
+    "file": "06-Workstation-Edge-Security-TooFarReview-Baseline-MUX.json",
+    "name": "Workstation-Edge-Security-TooFarReview-Baseline-MUX",
+    "expectedIssue": "Review date exceeds maximum allowed review interval."
+  },
+  {
+    "file": "07-Workstation-Edge-Security-BadDescription-Baseline-MUX.json",
+    "name": "Workstation-Edge-Security-BadDescription-Baseline-MUX",
+    "expectedIssue": "Bad description format."
+  },
+  {
+    "file": "08-Workstation-Edge-Security-MissingTicket-Baseline-MUX.json",
+    "name": "Workstation-Edge-Security-MissingTicket-Baseline-MUX",
+    "expectedIssue": "Missing ticket number."
+  },
+  {
+    "file": "09-Workstation-Edge-Security-Smartscreen-IT-MUX.json",
+    "name": "Workstation-Edge-Security-Smartscreen-IT-MUX",
+    "expectedIssue": "MUX Audience exists without matching Default policy."
+  },
+  {
+    "file": "10-Employee-Edge-PlatformIntegration-ExtensionGovernance-Baseline-ADD.json",
+    "name": "Employee-Edge-PlatformIntegration-ExtensionGovernance-Baseline-ADD",
+    "expectedIssue": "ADD baseline for mixed ADD/MUX conflict."
+  },
+  {
+    "file": "11-Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX.json",
+    "name": "Employee-Edge-PlatformIntegration-ExtensionGovernance-IT-MUX",
+    "expectedIssue": "Same namespace/setting as ADD policy, but MUX mode."
+  },
+  {
+    "file": "12-Employee-Edge-Security-Smartscreen-Baseline-MUX.json",
+    "name": "Employee-Edge-Security-Smartscreen-Baseline-MUX",
+    "expectedIssue": "Same setting also appears in Workstation scope; overlapping user/device scope ownership."
+  },
+  {
+    "file": "13-Workstation-Edge-UserExperience-Smartscreen-Baseline-MUX.json",
+    "name": "Workstation-Edge-UserExperience-Smartscreen-Baseline-MUX",
+    "expectedIssue": "Same setting owned by different domain/subdomain than Workstation-Edge-Security-Smartscreen."
+  },
+  {
+    "file": "14-Workstation-Edge-Security-AssignmentIssue-IT-MUX.json",
+    "name": "Workstation-Edge-Security-AssignmentIssue-IT-MUX",
+    "expectedIssue": "Assignment validation target: audience policy assigned to scope group and out-of-scope/empty groups."
+  },
+  {
+    "file": "15-Workstation-Edge-Security-DefaultExclude-Default-MUX.json",
+    "name": "Workstation-Edge-Security-DefaultExclude-Default-MUX",
+    "expectedIssue": "Default policy excludes unrelated group and misses actual audience excludes."
+  }
+]

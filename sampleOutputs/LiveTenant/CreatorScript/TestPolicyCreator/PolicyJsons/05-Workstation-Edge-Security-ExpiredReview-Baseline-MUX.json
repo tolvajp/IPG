@@ -1,0 +1,36 @@
+{
+  "name": "Workstation-Edge-Security-ExpiredReview-Baseline-MUX",
+  "description": "01-01-2024|SCTASK-IPG-TEST|Expired review date",
+  "platforms": "windows10",
+  "technologies": "mdm",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none"
+  },
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev140~policy~microsoft_edge_httpsonlymode",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_microsoft_edgev140~policy~microsoft_edge_httpsonlymode_0",
+          "children": []
+        }
+      }
+    }
+  ],
+  "expectedIssue": "Expired review date.",
+  "assignmentTestMetadata": [
+    {
+      "targetGroupDisplayName": "ConfigurationPolicyScope-Workstation",
+      "assignmentType": "Include"
+    }
+  ]
+}

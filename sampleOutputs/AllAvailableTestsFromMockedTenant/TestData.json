@@ -1,0 +1,2410 @@
+{
+  "Get-MgGroupMember": {
+    "c159ef80-6f50-5d1b-8047-887583a57a88": [
+      {
+        "AdditionalProperties": {
+          "deviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb",
+          "deviceName": "IL-7468",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "deviceId": "c47871ff-0f34-4da7-86da-abe94220d6a6",
+          "deviceName": "IL-1897",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "deviceId": "13f5b928-949f-47c1-a5d6-012ec4d5a169",
+          "deviceName": "IL-6311",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "deviceId": "97c62025-4be9-4f97-86d0-a59eb579d77a",
+          "deviceName": "DESKTOP-1EQ6DG4",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      }
+    ],
+    "17687774-7192-5ac9-85d1-4831b251b5a4": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "employee.user1@example.com"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "employee.user2@example.com"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb",
+          "deviceName": "IL-7468"
+        }
+      }
+    ],
+    "d260b68e-ab7d-5d8c-b6c4-e4da47a1fae1": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "admin.user1@example.com"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "admin.user2@example.com"
+        }
+      }
+    ],
+    "a4dee756-d13a-5b4e-a3be-9223a59729cd": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "contractor.user1@example.com"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "contractor.user2@example.com"
+        }
+      }
+    ],
+    "665011ff-343a-556b-89d0-beec13f7f993": [
+      {
+        "AdditionalProperties": {
+          "deviceId": "c47871ff-0f34-4da7-86da-abe94220d6a6",
+          "deviceName": "IL-1897",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      }
+    ],
+    "77e91b21-768a-5238-813c-2c689bf6e7dc": [
+      {
+        "AdditionalProperties": {
+          "deviceId": "13f5b928-949f-47c1-a5d6-012ec4d5a169",
+          "deviceName": "IL-6311",
+          "@odata.type": "#microsoft.graph.device"
+        }
+      }
+    ],
+    "26adab71-8e70-55e4-869d-17f25e334cff": [],
+    "dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7": [],
+    "b28e1a8c-d56c-50d0-985d-bc96f9e1f4a2": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "admin.user2@example.com"
+        }
+      }
+    ],
+    "5832b075-c1c6-5b36-a127-9c93a355555b": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "contractor.user2@example.com"
+        }
+      }
+    ],
+    "ff3c1263-63b0-5b3c-95d2-7f062f310300": [],
+    "a616d470-4d7f-52f1-9342-32e5143be84d": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb",
+          "deviceName": "IL-7468"
+        }
+      }
+    ],
+    "005a8511-9f6c-587d-8105-30310487e4c1": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "c47871ff-0f34-4da7-86da-abe94220d6a6",
+          "deviceName": "IL-1897"
+        }
+      }
+    ],
+    "60ae2b55-926f-5922-9052-4ec4bc1d4ab3": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb",
+          "deviceName": "IL-7468"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "c47871ff-0f34-4da7-86da-abe94220d6a6",
+          "deviceName": "IL-1897"
+        }
+      }
+    ],
+    "ce99aee4-a285-5a6f-924a-01c9a3532d6d": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb",
+          "deviceName": "IL-7468"
+        }
+      },
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "13f5b928-949f-47c1-a5d6-012ec4d5a169",
+          "deviceName": "IL-6311"
+        }
+      }
+    ],
+    "18356a42-0c94-5551-b693-c1b20c73d545": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "99999999-9999-4999-8999-999999999999",
+          "deviceName": "OUT-OF-SCOPE"
+        }
+      }
+    ],
+    "a989fe21-222b-51c6-a423-bd8ec1a43839": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "employee.user1@example.com"
+        }
+      }
+    ],
+    "5493c650-385e-5c81-a686-ced6e4fceaf5": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.user",
+          "userPrincipalName": "employee.user2@example.com"
+        }
+      }
+    ],
+    "96541828-a86f-502f-8a27-9065954bb070": [
+      {
+        "AdditionalProperties": {
+          "@odata.type": "#microsoft.graph.device",
+          "deviceId": "13f5b928-949f-47c1-a5d6-012ec4d5a169",
+          "deviceName": "IL-6311"
+        }
+      }
+    ]
+  },
+  "Get-MgGroup": [
+    {
+      "Id": "c159ef80-6f50-5d1b-8047-887583a57a88",
+      "DisplayName": "ConfigurationPolicyScope-Workstation"
+    },
+    {
+      "Id": "17687774-7192-5ac9-85d1-4831b251b5a4",
+      "DisplayName": "ConfigurationPolicyScope-Employee"
+    },
+    {
+      "Id": "d260b68e-ab7d-5d8c-b6c4-e4da47a1fae1",
+      "DisplayName": "ConfigurationPolicyScope-Admin"
+    },
+    {
+      "Id": "a4dee756-d13a-5b4e-a3be-9223a59729cd",
+      "DisplayName": "ConfigurationPolicyScope-Contractor"
+    },
+    {
+      "Id": "665011ff-343a-556b-89d0-beec13f7f993",
+      "DisplayName": "IPG-Clean-Workstation-Pilot"
+    },
+    {
+      "Id": "77e91b21-768a-5238-813c-2c689bf6e7dc",
+      "DisplayName": "IPG-Clean-Workstation-Test"
+    },
+    {
+      "Id": "26adab71-8e70-55e4-869d-17f25e334cff",
+      "DisplayName": "IPG-Clean-Employee-Finance"
+    },
+    {
+      "Id": "dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7",
+      "DisplayName": "IPG-Clean-Employee-Legal"
+    },
+    {
+      "Id": "b28e1a8c-d56c-50d0-985d-bc96f9e1f4a2",
+      "DisplayName": "IPG-Clean-Admin-Security"
+    },
+    {
+      "Id": "5832b075-c1c6-5b36-a127-9c93a355555b",
+      "DisplayName": "IPG-Clean-Contractor-PartnerA"
+    },
+    {
+      "Id": "ff3c1263-63b0-5b3c-95d2-7f062f310300",
+      "DisplayName": "IPG-ERR-EmptyGroup"
+    },
+    {
+      "Id": "a616d470-4d7f-52f1-9342-32e5143be84d",
+      "DisplayName": "IPG-ERR-Workstation-InScope-A"
+    },
+    {
+      "Id": "005a8511-9f6c-587d-8105-30310487e4c1",
+      "DisplayName": "IPG-ERR-Workstation-InScope-B"
+    },
+    {
+      "Id": "60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+      "DisplayName": "IPG-ERR-Workstation-Overlap-A"
+    },
+    {
+      "Id": "ce99aee4-a285-5a6f-924a-01c9a3532d6d",
+      "DisplayName": "IPG-ERR-Workstation-Overlap-B"
+    },
+    {
+      "Id": "18356a42-0c94-5551-b693-c1b20c73d545",
+      "DisplayName": "IPG-ERR-Workstation-OutOfScope"
+    },
+    {
+      "Id": "a989fe21-222b-51c6-a423-bd8ec1a43839",
+      "DisplayName": "IPG-ERR-Employee-InScope-A"
+    },
+    {
+      "Id": "5493c650-385e-5c81-a686-ced6e4fceaf5",
+      "DisplayName": "IPG-ERR-Employee-InScope-B"
+    },
+    {
+      "Id": "96541828-a86f-502f-8a27-9065954bb070",
+      "DisplayName": "IPG-ERR-UnexpectedExclude"
+    }
+  ],
+  "Get-MgDeviceManagementManagedDevice": [
+    {
+      "DeviceName": "IL-7468",
+      "AzureAdDeviceId": "2e6b9f69-390e-4d24-a110-3e57870499cb"
+    },
+    {
+      "DeviceName": "IL-1897",
+      "AzureAdDeviceId": "c47871ff-0f34-4da7-86da-abe94220d6a6"
+    },
+    {
+      "DeviceName": "IL-6311",
+      "AzureAdDeviceId": "13f5b928-949f-47c1-a5d6-012ec4d5a169"
+    },
+    {
+      "DeviceName": "DESKTOP-1EQ6DG4",
+      "AzureAdDeviceId": "97c62025-4be9-4f97-86d0-a59eb579d77a"
+    },
+    {
+      "DeviceName": "OUT-OF-SCOPE",
+      "AzureAdDeviceId": "99999999-9999-4999-8999-999999999999"
+    }
+  ],
+  "Get-MgBetaDeviceManagementConfigurationPolicySetting": {
+    "7c6bbf33-b683-5f4f-bd77-128703190859": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_smartscreenenabled"
+        }
+      }
+    ],
+    "be360e3f-d716-51c0-ae3b-3e7025a16100": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_smartscreenenabled"
+        }
+      }
+    ],
+    "928dab01-f716-5ad8-9333-71e6708a07f4": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_smartscreenenabled"
+        }
+      }
+    ],
+    "fe03aeed-d613-5dc1-a264-23bdc1dc28ea": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "device_vendor_msft_policy_config_microsoft_edgeupdates.2~policy~microsoft_edge_downloadrestrictions"
+        }
+      }
+    ],
+    "32324cda-313c-55e1-a2f6-6fe107c0fcef": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "device_vendor_msft_policy_config_update_allowautoupdate"
+        }
+      }
+    ],
+    "af959eec-73f5-5da8-abd7-0b8495cbf111": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev77~policy~microsoft_edge_extensioninstallallowlist"
+        }
+      }
+    ],
+    "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev77~policy~microsoft_edge_extensioninstallallowlist"
+        }
+      }
+    ],
+    "1e0856b5-2b20-5b75-8a63-7273a43c9059": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev77~policy~microsoft_edge_extensioninstallallowlist"
+        }
+      }
+    ],
+    "4cda727a-7d79-5589-b6d7-eea721e17266": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_adminsmartscreenenabled"
+        }
+      }
+    ],
+    "9bb65cf9-6ee4-566c-af50-f088fe010da2": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edgev89~policy~microsoft_edge_adminextensions"
+        }
+      }
+    ],
+    "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_restoreonstartup"
+        }
+      }
+    ],
+    "f0175961-c08c-5a2e-ab97-bf8145cbddc2": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "user_vendor_msft_policy_config_microsoft_edge~policy~microsoft_edge_restoreonstartup"
+        }
+      }
+    ],
+    "391e9130-62d0-5431-bcb9-c6235e529f98": [],
+    "39de0910-b915-5825-8764-fcab5747af0e": [],
+    "88f5811f-e70b-54da-bd6e-2c889b1b7ee5": [],
+    "902cd15d-95ec-561c-8da4-74f0eed79ccb": [],
+    "628eb19d-4d4c-5e40-89bf-2acd783a93e1": [],
+    "8b997c4e-b809-5a92-a298-ee114119c9b3": [],
+    "8aabbcba-53e0-56bb-a522-77ca565b53fd": [],
+    "8e3225a8-f530-508f-a469-499ce19dd125": [],
+    "3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57": [],
+    "e49a70a9-7dd5-5322-baa5-1e2321e8196a": [],
+    "f287dd0e-9a1f-5df4-837e-08e36b2c0465": [],
+    "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.review.expired"
+        }
+      }
+    ],
+    "c9f0af51-d28b-5643-9cc9-7a1db11eeab5": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.review.toofar"
+        }
+      }
+    ],
+    "b7ee3d36-9c57-586a-b89e-18d0bf0368ea": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.review.approaching"
+        }
+      }
+    ],
+    "a87169bd-bd94-5a62-9dd6-5f44d8d582ab": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.assignmentmissing"
+        }
+      }
+    ],
+    "9ce464cc-7eeb-5818-b3a3-da900c01fda3": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.noinclude"
+        }
+      }
+    ],
+    "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.baselineexclude"
+        }
+      }
+    ],
+    "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.baselinemulti"
+        }
+      }
+    ],
+    "6182ce3f-6b73-5942-823d-74a475f1d245": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.baselinewrong"
+        }
+      }
+    ],
+    "3ce9bf62-95bb-57e6-b42f-e37903784b7b": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.audienceexclude"
+        }
+      }
+    ],
+    "979de462-471b-590d-91af-eee340a66f5a": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.audiencescope"
+        }
+      }
+    ],
+    "c0620009-b8ab-5e53-b70a-22ab2479f8a2": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.empty"
+        }
+      }
+    ],
+    "22f5c401-07af-5059-9a0a-7e4f3f5794f2": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.add.outofscope"
+        }
+      }
+    ],
+    "c3b50da1-8b59-50b2-818b-5630da0e7e6f": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.coexist"
+        }
+      }
+    ],
+    "99ad837b-d551-56b3-935a-ccbdabe301ba": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.coexist"
+        }
+      }
+    ],
+    "64f06f32-5628-5cc7-9dc0-30bc1454394d": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.missingdefault"
+        }
+      }
+    ],
+    "83faa735-003b-589d-b078-aa0656fc6086": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultonly"
+        }
+      }
+    ],
+    "31f5a317-3126-53ec-9bab-71e38084af88": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.empty"
+        }
+      }
+    ],
+    "78371a63-1810-5971-8145-8d44fd576d39": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.outofscope"
+        }
+      }
+    ],
+    "0ee97d35-82ae-5912-951d-924faa33f429": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customoverlap"
+        }
+      }
+    ],
+    "f765b308-dc6f-5563-a2da-beddff965fc3": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customoverlap"
+        }
+      }
+    ],
+    "f3c3d447-80e5-50b1-9269-1f5ecef6604d": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customoverlap"
+        }
+      }
+    ],
+    "7c7bb6d7-cb72-5bce-92a0-7617af0a9608": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.rolloutoverlap"
+        }
+      }
+    ],
+    "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.rolloutoverlap"
+        }
+      }
+    ],
+    "75693a6d-05f2-5567-8279-6a18e51ad5ce": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.rolloutoverlap"
+        }
+      }
+    ],
+    "5d360463-04e8-5f07-9f56-fc977a46775e": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.noinclude"
+        }
+      }
+    ],
+    "24845a49-9cd6-58d2-acb3-b495a3bce80d": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.baselinewrong"
+        }
+      }
+    ],
+    "e97c13e4-c7ac-51aa-8fca-363548b08b10": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.baselinemissingexcl"
+        }
+      }
+    ],
+    "7c7666b5-97a9-5843-8b07-1fc20200c1c6": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.baselinemissingexcl"
+        }
+      }
+    ],
+    "e94d9093-e650-5ed7-bde5-c43f193d3c00": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.baselineunexpected"
+        }
+      }
+    ],
+    "e4684928-869b-52f4-9dad-ede754a1aef5": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultwrong"
+        }
+      }
+    ],
+    "36d0aabf-9d97-5986-b086-5b8d2d652a68": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultwrong"
+        }
+      }
+    ],
+    "f15e3717-de3c-584e-a551-4bf10cf527d6": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultmissing"
+        }
+      }
+    ],
+    "c0c9af42-cd7b-5be4-88b3-e20038d45ebd": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultmissing"
+        }
+      }
+    ],
+    "facd7e75-d304-5150-8257-846376f1ce66": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultmissing"
+        }
+      }
+    ],
+    "1726b745-fc23-5f36-87ea-ccb606f96767": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultunexpected"
+        }
+      }
+    ],
+    "5ad1616a-456a-51af-aa37-c9d08d5f66da": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.defaultunexpected"
+        }
+      }
+    ],
+    "0710e810-0576-5f7c-8269-975a2b8a0e7f": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customscope"
+        }
+      }
+    ],
+    "466df92c-dae7-5693-9704-c7370c44ad2b": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customscope"
+        }
+      }
+    ],
+    "8dcc1adc-db1a-5c5b-9f60-1efacd56919c": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.custommissing"
+        }
+      }
+    ],
+    "2309c5b9-2233-551c-a014-e53a0b4e6195": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.custommissing"
+        }
+      }
+    ],
+    "733fcabb-d8b6-559f-a9a2-5800491c895e": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.custommissing"
+        }
+      }
+    ],
+    "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customunexpected"
+        }
+      }
+    ],
+    "1d1f11a7-62b0-55fb-9609-ef5e347057a6": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.customunexpected"
+        }
+      }
+    ],
+    "633cdec0-fe9e-585e-82cf-3f1b99c0a545": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.rolloutexclude"
+        }
+      }
+    ],
+    "9d4744c8-36e1-5add-8fe2-65eed85d5999": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.mux.multigroups"
+        }
+      }
+    ],
+    "8e2b287c-b6f9-5271-8406-549f35b02623": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.scopeconflict"
+        }
+      }
+    ],
+    "6f554cca-98eb-5034-9549-dbf03754541b": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.scopeconflict"
+        }
+      }
+    ],
+    "04448e70-b81d-5b43-b6f3-ab0bc1b501b9": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.mixedmodes"
+        }
+      }
+    ],
+    "dd7a1442-30cf-56a1-8687-4fcf26532616": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.mixedmodes"
+        }
+      }
+    ],
+    "a8890ad3-1f4a-54ea-8801-b29ba51cfe34": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.multins"
+        }
+      }
+    ],
+    "ca419763-d426-5128-9060-7d52d4d19c5c": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.multins"
+        }
+      }
+    ],
+    "d442e807-491f-5730-a45c-174126ea8145": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.muxbaselineextra"
+        }
+      }
+    ],
+    "8e25b8a8-2432-5032-bc08-0eaa22e24949": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.muxbaselineextra"
+        }
+      }
+    ],
+    "80a59926-09b0-5505-839b-fed8e13861a1": [
+      {
+        "SettingInstance": {
+          "SettingDefinitionId": "ipg.err.setting.muxnobasedefault"
+        }
+      }
+    ]
+  },
+  "Get-MgBetaDeviceManagementConfigurationPolicyAssignment": {
+    "7c6bbf33-b683-5f4f-bd77-128703190859": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "7c6bbf33-b683-5f4f-bd77-128703190859_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "7c6bbf33-b683-5f4f-bd77-128703190859"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a33"
+          }
+        },
+        "Id": "7c6bbf33-b683-5f4f-bd77-128703190859_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "7c6bbf33-b683-5f4f-bd77-128703190859"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "665011ff-343a-556b-89d0-beec13f7f993"
+          }
+        },
+        "Id": "7c6bbf33-b683-5f4f-bd77-128703190859_665011ff-343a-556b-89d0-beec13f7f993",
+        "SourceId": "7c6bbf33-b683-5f4f-bd77-128703190859"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "77e91b21-768a-5238-813c-2c689bf6e7dc"
+          }
+        },
+        "Id": "7c6bbf33-b683-5f4f-bd77-128703190859_77e91b21-768a-5238-813c-2c689bf6e7dc",
+        "SourceId": "7c6bbf33-b683-5f4f-bd77-128703190859"
+      }
+    ],
+    "be360e3f-d716-51c0-ae3b-3e7025a16100": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "665011ff-343a-556b-89d0-beec13f7f993"
+          }
+        },
+        "Id": "be360e3f-d716-51c0-ae3b-3e7025a16100_665011ff-343a-556b-89d0-beec13f7f993",
+        "SourceId": "be360e3f-d716-51c0-ae3b-3e7025a16100"
+      }
+    ],
+    "928dab01-f716-5ad8-9333-71e6708a07f4": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "77e91b21-768a-5238-813c-2c689bf6e7dc"
+          }
+        },
+        "Id": "928dab01-f716-5ad8-9333-71e6708a07f4_77e91b21-768a-5238-813c-2c689bf6e7dc",
+        "SourceId": "928dab01-f716-5ad8-9333-71e6708a07f4"
+      }
+    ],
+    "fe03aeed-d613-5dc1-a264-23bdc1dc28ea": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "fe03aeed-d613-5dc1-a264-23bdc1dc28ea_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "fe03aeed-d613-5dc1-a264-23bdc1dc28ea"
+      }
+    ],
+    "32324cda-313c-55e1-a2f6-6fe107c0fcef": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "32324cda-313c-55e1-a2f6-6fe107c0fcef_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "32324cda-313c-55e1-a2f6-6fe107c0fcef"
+      }
+    ],
+    "af959eec-73f5-5da8-abd7-0b8495cbf111": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "17687774-7192-5ac9-85d1-4831b251b5a4"
+          }
+        },
+        "Id": "af959eec-73f5-5da8-abd7-0b8495cbf111_17687774-7192-5ac9-85d1-4831b251b5a4",
+        "SourceId": "af959eec-73f5-5da8-abd7-0b8495cbf111"
+      }
+    ],
+    "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "26adab71-8e70-55e4-869d-17f25e334cff"
+          }
+        },
+        "Id": "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0_26adab71-8e70-55e4-869d-17f25e334cff",
+        "SourceId": "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0"
+      }
+    ],
+    "1e0856b5-2b20-5b75-8a63-7273a43c9059": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7"
+          }
+        },
+        "Id": "1e0856b5-2b20-5b75-8a63-7273a43c9059_dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7",
+        "SourceId": "1e0856b5-2b20-5b75-8a63-7273a43c9059"
+      }
+    ],
+    "4cda727a-7d79-5589-b6d7-eea721e17266": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "d260b68e-ab7d-5d8c-b6c4-e4da47a1fae1"
+          }
+        },
+        "Id": "4cda727a-7d79-5589-b6d7-eea721e17266_d260b68e-ab7d-5d8c-b6c4-e4da47a1fae1",
+        "SourceId": "4cda727a-7d79-5589-b6d7-eea721e17266"
+      }
+    ],
+    "9bb65cf9-6ee4-566c-af50-f088fe010da2": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "b28e1a8c-d56c-50d0-985d-bc96f9e1f4a2"
+          }
+        },
+        "Id": "9bb65cf9-6ee4-566c-af50-f088fe010da2_b28e1a8c-d56c-50d0-985d-bc96f9e1f4a2",
+        "SourceId": "9bb65cf9-6ee4-566c-af50-f088fe010da2"
+      }
+    ],
+    "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a4dee756-d13a-5b4e-a3be-9223a59729cd"
+          }
+        },
+        "Id": "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1_a4dee756-d13a-5b4e-a3be-9223a59729cd",
+        "SourceId": "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "5832b075-c1c6-5b36-a127-9c93a355555b"
+          }
+        },
+        "Id": "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1_5832b075-c1c6-5b36-a127-9c93a355555b",
+        "SourceId": "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1"
+      }
+    ],
+    "f0175961-c08c-5a2e-ab97-bf8145cbddc2": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "5832b075-c1c6-5b36-a127-9c93a355555b"
+          }
+        },
+        "Id": "f0175961-c08c-5a2e-ab97-bf8145cbddc2_5832b075-c1c6-5b36-a127-9c93a355555b",
+        "SourceId": "f0175961-c08c-5a2e-ab97-bf8145cbddc2"
+      }
+    ],
+    "391e9130-62d0-5431-bcb9-c6235e529f98": [],
+    "39de0910-b915-5825-8764-fcab5747af0e": [],
+    "88f5811f-e70b-54da-bd6e-2c889b1b7ee5": [],
+    "902cd15d-95ec-561c-8da4-74f0eed79ccb": [],
+    "628eb19d-4d4c-5e40-89bf-2acd783a93e1": [],
+    "8b997c4e-b809-5a92-a298-ee114119c9b3": [],
+    "8aabbcba-53e0-56bb-a522-77ca565b53fd": [],
+    "8e3225a8-f530-508f-a469-499ce19dd125": [],
+    "3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57": [],
+    "e49a70a9-7dd5-5322-baa5-1e2321e8196a": [],
+    "f287dd0e-9a1f-5df4-837e-08e36b2c0465": [],
+    "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b"
+      }
+    ],
+    "c9f0af51-d28b-5643-9cc9-7a1db11eeab5": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "c9f0af51-d28b-5643-9cc9-7a1db11eeab5_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "c9f0af51-d28b-5643-9cc9-7a1db11eeab5"
+      }
+    ],
+    "b7ee3d36-9c57-586a-b89e-18d0bf0368ea": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "b7ee3d36-9c57-586a-b89e-18d0bf0368ea_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "b7ee3d36-9c57-586a-b89e-18d0bf0368ea"
+      }
+    ],
+    "9ce464cc-7eeb-5818-b3a3-da900c01fda3": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "9ce464cc-7eeb-5818-b3a3-da900c01fda3_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "9ce464cc-7eeb-5818-b3a3-da900c01fda3"
+      }
+    ],
+    "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3"
+      }
+    ],
+    "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b"
+      }
+    ],
+    "6182ce3f-6b73-5942-823d-74a475f1d245": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "6182ce3f-6b73-5942-823d-74a475f1d245_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "6182ce3f-6b73-5942-823d-74a475f1d245"
+      }
+    ],
+    "3ce9bf62-95bb-57e6-b42f-e37903784b7b": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "3ce9bf62-95bb-57e6-b42f-e37903784b7b_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "3ce9bf62-95bb-57e6-b42f-e37903784b7b"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "3ce9bf62-95bb-57e6-b42f-e37903784b7b_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "3ce9bf62-95bb-57e6-b42f-e37903784b7b"
+      }
+    ],
+    "979de462-471b-590d-91af-eee340a66f5a": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "979de462-471b-590d-91af-eee340a66f5a_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "979de462-471b-590d-91af-eee340a66f5a"
+      }
+    ],
+    "c0620009-b8ab-5e53-b70a-22ab2479f8a2": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+          }
+        },
+        "Id": "c0620009-b8ab-5e53-b70a-22ab2479f8a2_ff3c1263-63b0-5b3c-95d2-7f062f310300",
+        "SourceId": "c0620009-b8ab-5e53-b70a-22ab2479f8a2"
+      }
+    ],
+    "22f5c401-07af-5059-9a0a-7e4f3f5794f2": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "18356a42-0c94-5551-b693-c1b20c73d545"
+          }
+        },
+        "Id": "22f5c401-07af-5059-9a0a-7e4f3f5794f2_18356a42-0c94-5551-b693-c1b20c73d545",
+        "SourceId": "22f5c401-07af-5059-9a0a-7e4f3f5794f2"
+      }
+    ],
+    "c3b50da1-8b59-50b2-818b-5630da0e7e6f": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "c3b50da1-8b59-50b2-818b-5630da0e7e6f_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "c3b50da1-8b59-50b2-818b-5630da0e7e6f"
+      }
+    ],
+    "99ad837b-d551-56b3-935a-ccbdabe301ba": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "99ad837b-d551-56b3-935a-ccbdabe301ba_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "99ad837b-d551-56b3-935a-ccbdabe301ba"
+      }
+    ],
+    "64f06f32-5628-5cc7-9dc0-30bc1454394d": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "64f06f32-5628-5cc7-9dc0-30bc1454394d_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "64f06f32-5628-5cc7-9dc0-30bc1454394d"
+      }
+    ],
+    "83faa735-003b-589d-b078-aa0656fc6086": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "83faa735-003b-589d-b078-aa0656fc6086_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "83faa735-003b-589d-b078-aa0656fc6086"
+      }
+    ],
+    "31f5a317-3126-53ec-9bab-71e38084af88": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+          }
+        },
+        "Id": "31f5a317-3126-53ec-9bab-71e38084af88_ff3c1263-63b0-5b3c-95d2-7f062f310300",
+        "SourceId": "31f5a317-3126-53ec-9bab-71e38084af88"
+      }
+    ],
+    "78371a63-1810-5971-8145-8d44fd576d39": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "18356a42-0c94-5551-b693-c1b20c73d545"
+          }
+        },
+        "Id": "78371a63-1810-5971-8145-8d44fd576d39_18356a42-0c94-5551-b693-c1b20c73d545",
+        "SourceId": "78371a63-1810-5971-8145-8d44fd576d39"
+      }
+    ],
+    "0ee97d35-82ae-5912-951d-924faa33f429": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "0ee97d35-82ae-5912-951d-924faa33f429_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "0ee97d35-82ae-5912-951d-924faa33f429"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "60ae2b55-926f-5922-9052-4ec4bc1d4ab3"
+          }
+        },
+        "Id": "0ee97d35-82ae-5912-951d-924faa33f429_60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+        "SourceId": "0ee97d35-82ae-5912-951d-924faa33f429"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+          }
+        },
+        "Id": "0ee97d35-82ae-5912-951d-924faa33f429_ce99aee4-a285-5a6f-924a-01c9a3532d6d",
+        "SourceId": "0ee97d35-82ae-5912-951d-924faa33f429"
+      }
+    ],
+    "f765b308-dc6f-5563-a2da-beddff965fc3": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "60ae2b55-926f-5922-9052-4ec4bc1d4ab3"
+          }
+        },
+        "Id": "f765b308-dc6f-5563-a2da-beddff965fc3_60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+        "SourceId": "f765b308-dc6f-5563-a2da-beddff965fc3"
+      }
+    ],
+    "f3c3d447-80e5-50b1-9269-1f5ecef6604d": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+          }
+        },
+        "Id": "f3c3d447-80e5-50b1-9269-1f5ecef6604d_ce99aee4-a285-5a6f-924a-01c9a3532d6d",
+        "SourceId": "f3c3d447-80e5-50b1-9269-1f5ecef6604d"
+      }
+    ],
+    "7c7bb6d7-cb72-5bce-92a0-7617af0a9608": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "60ae2b55-926f-5922-9052-4ec4bc1d4ab3"
+          }
+        },
+        "Id": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608_60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+        "SourceId": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+          }
+        },
+        "Id": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608_ce99aee4-a285-5a6f-924a-01c9a3532d6d",
+        "SourceId": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608"
+      }
+    ],
+    "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "60ae2b55-926f-5922-9052-4ec4bc1d4ab3"
+          }
+        },
+        "Id": "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0_60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+        "SourceId": "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0"
+      }
+    ],
+    "75693a6d-05f2-5567-8279-6a18e51ad5ce": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+          }
+        },
+        "Id": "75693a6d-05f2-5567-8279-6a18e51ad5ce_ce99aee4-a285-5a6f-924a-01c9a3532d6d",
+        "SourceId": "75693a6d-05f2-5567-8279-6a18e51ad5ce"
+      }
+    ],
+    "5d360463-04e8-5f07-9f56-fc977a46775e": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "5d360463-04e8-5f07-9f56-fc977a46775e_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "5d360463-04e8-5f07-9f56-fc977a46775e"
+      }
+    ],
+    "24845a49-9cd6-58d2-acb3-b495a3bce80d": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "24845a49-9cd6-58d2-acb3-b495a3bce80d_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "24845a49-9cd6-58d2-acb3-b495a3bce80d"
+      }
+    ],
+    "e97c13e4-c7ac-51aa-8fca-363548b08b10": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "e97c13e4-c7ac-51aa-8fca-363548b08b10_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "e97c13e4-c7ac-51aa-8fca-363548b08b10"
+      }
+    ],
+    "7c7666b5-97a9-5843-8b07-1fc20200c1c6": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "7c7666b5-97a9-5843-8b07-1fc20200c1c6_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "7c7666b5-97a9-5843-8b07-1fc20200c1c6"
+      }
+    ],
+    "e94d9093-e650-5ed7-bde5-c43f193d3c00": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "e94d9093-e650-5ed7-bde5-c43f193d3c00_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "e94d9093-e650-5ed7-bde5-c43f193d3c00"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "e94d9093-e650-5ed7-bde5-c43f193d3c00_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "e94d9093-e650-5ed7-bde5-c43f193d3c00"
+      }
+    ],
+    "e4684928-869b-52f4-9dad-ede754a1aef5": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "e4684928-869b-52f4-9dad-ede754a1aef5_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "e4684928-869b-52f4-9dad-ede754a1aef5"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "e4684928-869b-52f4-9dad-ede754a1aef5_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "e4684928-869b-52f4-9dad-ede754a1aef5"
+      }
+    ],
+    "36d0aabf-9d97-5986-b086-5b8d2d652a68": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "36d0aabf-9d97-5986-b086-5b8d2d652a68_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "36d0aabf-9d97-5986-b086-5b8d2d652a68"
+      }
+    ],
+    "f15e3717-de3c-584e-a551-4bf10cf527d6": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "f15e3717-de3c-584e-a551-4bf10cf527d6_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "f15e3717-de3c-584e-a551-4bf10cf527d6"
+      }
+    ],
+    "c0c9af42-cd7b-5be4-88b3-e20038d45ebd": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "c0c9af42-cd7b-5be4-88b3-e20038d45ebd_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "c0c9af42-cd7b-5be4-88b3-e20038d45ebd"
+      }
+    ],
+    "facd7e75-d304-5150-8257-846376f1ce66": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "facd7e75-d304-5150-8257-846376f1ce66_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "facd7e75-d304-5150-8257-846376f1ce66"
+      }
+    ],
+    "1726b745-fc23-5f36-87ea-ccb606f96767": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "1726b745-fc23-5f36-87ea-ccb606f96767_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "1726b745-fc23-5f36-87ea-ccb606f96767"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "1726b745-fc23-5f36-87ea-ccb606f96767_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "1726b745-fc23-5f36-87ea-ccb606f96767"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "1726b745-fc23-5f36-87ea-ccb606f96767_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "1726b745-fc23-5f36-87ea-ccb606f96767"
+      }
+    ],
+    "5ad1616a-456a-51af-aa37-c9d08d5f66da": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "5ad1616a-456a-51af-aa37-c9d08d5f66da_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "5ad1616a-456a-51af-aa37-c9d08d5f66da"
+      }
+    ],
+    "0710e810-0576-5f7c-8269-975a2b8a0e7f": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "0710e810-0576-5f7c-8269-975a2b8a0e7f_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "0710e810-0576-5f7c-8269-975a2b8a0e7f"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "0710e810-0576-5f7c-8269-975a2b8a0e7f_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "0710e810-0576-5f7c-8269-975a2b8a0e7f"
+      }
+    ],
+    "466df92c-dae7-5693-9704-c7370c44ad2b": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "466df92c-dae7-5693-9704-c7370c44ad2b_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "466df92c-dae7-5693-9704-c7370c44ad2b"
+      }
+    ],
+    "8dcc1adc-db1a-5c5b-9f60-1efacd56919c": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c"
+      }
+    ],
+    "2309c5b9-2233-551c-a014-e53a0b4e6195": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "2309c5b9-2233-551c-a014-e53a0b4e6195_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "2309c5b9-2233-551c-a014-e53a0b4e6195"
+      }
+    ],
+    "733fcabb-d8b6-559f-a9a2-5800491c895e": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "733fcabb-d8b6-559f-a9a2-5800491c895e_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "733fcabb-d8b6-559f-a9a2-5800491c895e"
+      }
+    ],
+    "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac"
+      }
+    ],
+    "1d1f11a7-62b0-55fb-9609-ef5e347057a6": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "1d1f11a7-62b0-55fb-9609-ef5e347057a6_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "1d1f11a7-62b0-55fb-9609-ef5e347057a6"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "1d1f11a7-62b0-55fb-9609-ef5e347057a6_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "1d1f11a7-62b0-55fb-9609-ef5e347057a6"
+      }
+    ],
+    "633cdec0-fe9e-585e-82cf-3f1b99c0a545": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "633cdec0-fe9e-585e-82cf-3f1b99c0a545_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "633cdec0-fe9e-585e-82cf-3f1b99c0a545"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.exclusionGroupAssignmentTarget",
+            "groupId": "96541828-a86f-502f-8a27-9065954bb070"
+          }
+        },
+        "Id": "633cdec0-fe9e-585e-82cf-3f1b99c0a545_96541828-a86f-502f-8a27-9065954bb070",
+        "SourceId": "633cdec0-fe9e-585e-82cf-3f1b99c0a545"
+      }
+    ],
+    "9d4744c8-36e1-5add-8fe2-65eed85d5999": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "9d4744c8-36e1-5add-8fe2-65eed85d5999_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "9d4744c8-36e1-5add-8fe2-65eed85d5999"
+      },
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "005a8511-9f6c-587d-8105-30310487e4c1"
+          }
+        },
+        "Id": "9d4744c8-36e1-5add-8fe2-65eed85d5999_005a8511-9f6c-587d-8105-30310487e4c1",
+        "SourceId": "9d4744c8-36e1-5add-8fe2-65eed85d5999"
+      }
+    ],
+    "8e2b287c-b6f9-5271-8406-549f35b02623": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "8e2b287c-b6f9-5271-8406-549f35b02623_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "8e2b287c-b6f9-5271-8406-549f35b02623"
+      }
+    ],
+    "6f554cca-98eb-5034-9549-dbf03754541b": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "17687774-7192-5ac9-85d1-4831b251b5a4"
+          }
+        },
+        "Id": "6f554cca-98eb-5034-9549-dbf03754541b_17687774-7192-5ac9-85d1-4831b251b5a4",
+        "SourceId": "6f554cca-98eb-5034-9549-dbf03754541b"
+      }
+    ],
+    "04448e70-b81d-5b43-b6f3-ab0bc1b501b9": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "04448e70-b81d-5b43-b6f3-ab0bc1b501b9_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "04448e70-b81d-5b43-b6f3-ab0bc1b501b9"
+      }
+    ],
+    "dd7a1442-30cf-56a1-8687-4fcf26532616": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "dd7a1442-30cf-56a1-8687-4fcf26532616_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "dd7a1442-30cf-56a1-8687-4fcf26532616"
+      }
+    ],
+    "a8890ad3-1f4a-54ea-8801-b29ba51cfe34": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "a8890ad3-1f4a-54ea-8801-b29ba51cfe34_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "a8890ad3-1f4a-54ea-8801-b29ba51cfe34"
+      }
+    ],
+    "ca419763-d426-5128-9060-7d52d4d19c5c": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "ca419763-d426-5128-9060-7d52d4d19c5c_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "ca419763-d426-5128-9060-7d52d4d19c5c"
+      }
+    ],
+    "d442e807-491f-5730-a45c-174126ea8145": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "c159ef80-6f50-5d1b-8047-887583a57a88"
+          }
+        },
+        "Id": "d442e807-491f-5730-a45c-174126ea8145_c159ef80-6f50-5d1b-8047-887583a57a88",
+        "SourceId": "d442e807-491f-5730-a45c-174126ea8145"
+      }
+    ],
+    "8e25b8a8-2432-5032-bc08-0eaa22e24949": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "8e25b8a8-2432-5032-bc08-0eaa22e24949_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "8e25b8a8-2432-5032-bc08-0eaa22e24949"
+      }
+    ],
+    "80a59926-09b0-5505-839b-fed8e13861a1": [
+      {
+        "Target": {
+          "AdditionalProperties": {
+            "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+            "groupId": "a616d470-4d7f-52f1-9342-32e5143be84d"
+          }
+        },
+        "Id": "80a59926-09b0-5505-839b-fed8e13861a1_a616d470-4d7f-52f1-9342-32e5143be84d",
+        "SourceId": "80a59926-09b0-5505-839b-fed8e13861a1"
+      }
+    ]
+  },
+  "Get-MgBetaDeviceManagementConfigurationPolicy": [
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Default SmartScreen configuration for workstation devices",
+      "Id": "7c6bbf33-b683-5f4f-bd77-128703190859",
+      "Name": "Workstation-Edge-Security-Smartscreen-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Pilot SmartScreen configuration for workstation devices",
+      "Id": "be360e3f-d716-51c0-ae3b-3e7025a16100",
+      "Name": "Workstation-Edge-Security-Smartscreen-Pilot-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Test SmartScreen configuration for workstation devices",
+      "Id": "928dab01-f716-5ad8-9333-71e6708a07f4",
+      "Name": "Workstation-Edge-Security-Smartscreen-Test-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Baseline download restriction configuration for workstation devices",
+      "Id": "fe03aeed-d613-5dc1-a264-23bdc1dc28ea",
+      "Name": "Workstation-Edge-Security-DownloadRestrictions-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Baseline Windows update servicing configuration",
+      "Id": "32324cda-313c-55e1-a2f6-6fe107c0fcef",
+      "Name": "Workstation-Windows-UpdateServicing-RingPolicy-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Baseline allowed browser extension list for employees",
+      "Id": "af959eec-73f5-5da8-abd7-0b8495cbf111",
+      "Name": "Employee-Edge-PlatformIntegration-ExtensionGovernance-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Additional browser extensions for Finance",
+      "Id": "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0",
+      "Name": "Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Additional browser extensions for Legal",
+      "Id": "1e0856b5-2b20-5b75-8a63-7273a43c9059",
+      "Name": "Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Baseline Edge security controls for admins",
+      "Id": "4cda727a-7d79-5589-b6d7-eea721e17266",
+      "Name": "Admin-Edge-Security-AdminControls-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Additional Edge controls for SecOps admins",
+      "Id": "9bb65cf9-6ee4-566c-af50-f088fe010da2",
+      "Name": "Admin-Edge-Security-AdminControls-SecOps-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|Default browser startup configuration for contractors",
+      "Id": "02e2c4f3-c4d8-5d53-add1-346f0c99f1a1",
+      "Name": "Contractor-Edge-UserExperience-BrowserBaseline-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-CLEAN|PartnerA browser startup configuration for contractors",
+      "Id": "f0175961-c08c-5a2e-ab97-bf8145cbddc2",
+      "Name": "Contractor-Edge-UserExperience-BrowserBaseline-PartnerA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Invalid name part count",
+      "Id": "391e9130-62d0-5431-bcb9-c6235e529f98",
+      "Name": "BrokenName",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Invalid scope",
+      "Id": "39de0910-b915-5825-8764-fcab5747af0e",
+      "Name": "NoSuchScope-Edge-Security-Test-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Invalid product",
+      "Id": "88f5811f-e70b-54da-bd6e-2c889b1b7ee5",
+      "Name": "Workstation-NoSuchProduct-Security-Test-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Invalid domain",
+      "Id": "902cd15d-95ec-561c-8da4-74f0eed79ccb",
+      "Name": "Workstation-Edge-NoSuchDomain-Test-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Invalid mode",
+      "Id": "628eb19d-4d4c-5e40-89bf-2acd783a93e1",
+      "Name": "Workstation-Edge-Security-Test-NOMODE",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Missing audience",
+      "Id": "8b997c4e-b809-5a92-a298-ee114119c9b3",
+      "Name": "Workstation-Edge-Security--MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Default audience used with ADD",
+      "Id": "8aabbcba-53e0-56bb-a522-77ca565b53fd",
+      "Name": "Workstation-Edge-Security-Default-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "No pipe separated description",
+      "Id": "8e3225a8-f530-508f-a469-499ce19dd125",
+      "Name": "Workstation-Edge-Security-MetaBadDescription-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "not-a-date|SCTASK-IPG-ERR|Invalid review date format",
+      "Id": "3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57",
+      "Name": "Workstation-Edge-Security-MetaBadDate-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026||Missing ticket number",
+      "Id": "e49a70a9-7dd5-5322-baa5-1e2321e8196a",
+      "Name": "Workstation-Edge-Security-MetaMissingTicket-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|",
+      "Id": "f287dd0e-9a1f-5df4-837e-08e36b2c0465",
+      "Name": "Workstation-Edge-Security-MetaMissingReason-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-01-2026|SCTASK-IPG-ERR|Expired review date",
+      "Id": "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b",
+      "Name": "Workstation-Edge-Security-ReviewExpired-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-12-2027|SCTASK-IPG-ERR|Review date beyond allowed interval",
+      "Id": "c9f0af51-d28b-5643-9cc9-7a1db11eeab5",
+      "Name": "Workstation-Edge-Security-ReviewTooFar-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "10-06-2026|SCTASK-IPG-ERR|Review date approaching",
+      "Id": "b7ee3d36-9c57-586a-b89e-18d0bf0368ea",
+      "Name": "Workstation-Edge-Security-ReviewApproaching-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD assignment missing",
+      "Id": "a87169bd-bd94-5a62-9dd6-5f44d8d582ab",
+      "Name": "Workstation-Edge-Security-AddMissingAssignment-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD no include assignment",
+      "Id": "9ce464cc-7eeb-5818-b3a3-da900c01fda3",
+      "Name": "Workstation-Edge-Security-AddNoInclude-Audience-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD baseline has excluded group",
+      "Id": "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3",
+      "Name": "Workstation-Edge-Security-AddBaselineExclude-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD baseline assigned to multiple groups",
+      "Id": "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b",
+      "Name": "Workstation-Edge-Security-AddBaselineMulti-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD baseline wrong group",
+      "Id": "6182ce3f-6b73-5942-823d-74a475f1d245",
+      "Name": "Workstation-Edge-Security-AddBaselineWrong-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD audience has excluded group",
+      "Id": "3ce9bf62-95bb-57e6-b42f-e37903784b7b",
+      "Name": "Workstation-Edge-Security-AddAudienceExclude-Audience-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD audience assigned to scope target",
+      "Id": "979de462-471b-590d-91af-eee340a66f5a",
+      "Name": "Workstation-Edge-Security-AddAudienceScopeTarget-Audience-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD assigned empty group",
+      "Id": "c0620009-b8ab-5e53-b70a-22ab2479f8a2",
+      "Name": "Workstation-Edge-Security-AddEmptyGroup-Audience-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|ADD out-of-scope member",
+      "Id": "22f5c401-07af-5059-9a0a-7e4f3f5794f2",
+      "Name": "Workstation-Edge-Security-AddOutOfScope-Audience-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline coexist baseline",
+      "Id": "c3b50da1-8b59-50b2-818b-5630da0e7e6f",
+      "Name": "Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline coexist custom",
+      "Id": "99ad837b-d551-56b3-935a-ccbdabe301ba",
+      "Name": "Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom without default",
+      "Id": "64f06f32-5628-5cc7-9dc0-30bc1454394d",
+      "Name": "Workstation-Edge-Security-MuxMissingDefault-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default without custom",
+      "Id": "83faa735-003b-589d-b078-aa0656fc6086",
+      "Name": "Workstation-Edge-Security-MuxDefaultOnly-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX empty group",
+      "Id": "31f5a317-3126-53ec-9bab-71e38084af88",
+      "Name": "Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX out of scope",
+      "Id": "78371a63-1810-5971-8145-8d44fd576d39",
+      "Name": "Workstation-Edge-Security-MuxOutOfScope-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom overlap default",
+      "Id": "0ee97d35-82ae-5912-951d-924faa33f429",
+      "Name": "Workstation-Edge-Security-MuxCustomOverlap-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom overlap A",
+      "Id": "f765b308-dc6f-5563-a2da-beddff965fc3",
+      "Name": "Workstation-Edge-Security-MuxCustomOverlap-CustomA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom overlap B",
+      "Id": "f3c3d447-80e5-50b1-9269-1f5ecef6604d",
+      "Name": "Workstation-Edge-Security-MuxCustomOverlap-CustomB-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX rollout overlap baseline",
+      "Id": "7c7bb6d7-cb72-5bce-92a0-7617af0a9608",
+      "Name": "Workstation-Edge-Security-MuxRolloutOverlap-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX rollout overlap A",
+      "Id": "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0",
+      "Name": "Workstation-Edge-Security-MuxRolloutOverlap-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX rollout overlap B",
+      "Id": "75693a6d-05f2-5567-8279-6a18e51ad5ce",
+      "Name": "Workstation-Edge-Security-MuxRolloutOverlap-RolloutB-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX no include",
+      "Id": "5d360463-04e8-5f07-9f56-fc977a46775e",
+      "Name": "Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline wrong group",
+      "Id": "24845a49-9cd6-58d2-acb3-b495a3bce80d",
+      "Name": "Workstation-Edge-Security-MuxBaselineWrong-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline missing exclusions",
+      "Id": "e97c13e4-c7ac-51aa-8fca-363548b08b10",
+      "Name": "Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline missing exclusions rollout",
+      "Id": "7c7666b5-97a9-5843-8b07-1fc20200c1c6",
+      "Name": "Workstation-Edge-Security-MuxBaselineMissingExcl-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX baseline unexpected exclusions",
+      "Id": "e94d9093-e650-5ed7-bde5-c43f193d3c00",
+      "Name": "Workstation-Edge-Security-MuxBaselineUnexpectedExcl-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default wrong group",
+      "Id": "e4684928-869b-52f4-9dad-ede754a1aef5",
+      "Name": "Workstation-Edge-Security-MuxDefaultWrong-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default wrong group custom",
+      "Id": "36d0aabf-9d97-5986-b086-5b8d2d652a68",
+      "Name": "Workstation-Edge-Security-MuxDefaultWrong-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default missing exclusions",
+      "Id": "f15e3717-de3c-584e-a551-4bf10cf527d6",
+      "Name": "Workstation-Edge-Security-MuxDefaultMissingExcl-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default missing exclusions custom",
+      "Id": "c0c9af42-cd7b-5be4-88b3-e20038d45ebd",
+      "Name": "Workstation-Edge-Security-MuxDefaultMissingExcl-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default missing exclusions rollout",
+      "Id": "facd7e75-d304-5150-8257-846376f1ce66",
+      "Name": "Workstation-Edge-Security-MuxDefaultMissingExcl-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default unexpected exclusions",
+      "Id": "1726b745-fc23-5f36-87ea-ccb606f96767",
+      "Name": "Workstation-Edge-Security-MuxDefaultUnexpectedExcl-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX default unexpected custom",
+      "Id": "5ad1616a-456a-51af-aa37-c9d08d5f66da",
+      "Name": "Workstation-Edge-Security-MuxDefaultUnexpectedExcl-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom scope default",
+      "Id": "0710e810-0576-5f7c-8269-975a2b8a0e7f",
+      "Name": "Workstation-Edge-Security-MuxCustomScope-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom assigned to scope",
+      "Id": "466df92c-dae7-5693-9704-c7370c44ad2b",
+      "Name": "Workstation-Edge-Security-MuxCustomScope-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom missing exclusions default",
+      "Id": "8dcc1adc-db1a-5c5b-9f60-1efacd56919c",
+      "Name": "Workstation-Edge-Security-MuxCustomMissingExcl-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom missing exclusions custom",
+      "Id": "2309c5b9-2233-551c-a014-e53a0b4e6195",
+      "Name": "Workstation-Edge-Security-MuxCustomMissingExcl-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom missing exclusions rollout",
+      "Id": "733fcabb-d8b6-559f-a9a2-5800491c895e",
+      "Name": "Workstation-Edge-Security-MuxCustomMissingExcl-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom unexpected exclusions default",
+      "Id": "ffc63514-15ce-5f5e-8c0b-12dc7ea0a1ac",
+      "Name": "Workstation-Edge-Security-MuxCustomUnexpectedExcl-Default-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX custom unexpected exclusions custom",
+      "Id": "1d1f11a7-62b0-55fb-9609-ef5e347057a6",
+      "Name": "Workstation-Edge-Security-MuxCustomUnexpectedExcl-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX rollout has excluded group",
+      "Id": "633cdec0-fe9e-585e-82cf-3f1b99c0a545",
+      "Name": "Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|MUX multiple groups",
+      "Id": "9d4744c8-36e1-5add-8fe2-65eed85d5999",
+      "Name": "Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting scope conflict workstation",
+      "Id": "8e2b287c-b6f9-5271-8406-549f35b02623",
+      "Name": "Workstation-Edge-Security-SettingScopeConflict-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting scope conflict employee",
+      "Id": "6f554cca-98eb-5034-9549-dbf03754541b",
+      "Name": "Employee-Edge-Security-SettingScopeConflict-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting mixed modes ADD",
+      "Id": "04448e70-b81d-5b43-b6f3-ab0bc1b501b9",
+      "Name": "Workstation-Edge-Security-SettingMixedModesA-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting mixed modes MUX",
+      "Id": "dd7a1442-30cf-56a1-8687-4fcf26532616",
+      "Name": "Workstation-Edge-Security-SettingMixedModesB-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting multiple namespace A",
+      "Id": "a8890ad3-1f4a-54ea-8801-b29ba51cfe34",
+      "Name": "Workstation-Edge-Security-SettingMultiNamespaceA-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting multiple namespace B",
+      "Id": "ca419763-d426-5128-9060-7d52d4d19c5c",
+      "Name": "Workstation-Edge-UserExperience-SettingMultiNamespaceB-Baseline-ADD",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting MUX baseline extra baseline",
+      "Id": "d442e807-491f-5730-a45c-174126ea8145",
+      "Name": "Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting MUX baseline extra custom",
+      "Id": "8e25b8a8-2432-5032-bc08-0eaa22e24949",
+      "Name": "Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    },
+    {
+      "Description": "01-11-2026|SCTASK-IPG-ERR|Setting MUX missing baseline/default",
+      "Id": "80a59926-09b0-5505-839b-fed8e13861a1",
+      "Name": "Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX",
+      "TemplateReference": {
+        "TemplateFamily": "none"
+      }
+    }
+  ]
+}

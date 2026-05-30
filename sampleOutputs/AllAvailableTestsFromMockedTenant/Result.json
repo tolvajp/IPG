@@ -1,0 +1,1402 @@
+{
+  "Documentation": "https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md",
+  "Human": {
+    "MetadataParsingIssues": [
+      {
+        "Id": "391e9130-62d0-5431-bcb9-c6235e529f98",
+        "Name": "BrokenName",
+        "Reasons": [
+          "Name not compliant. Not the right number of parts."
+        ]
+      },
+      {
+        "Id": "39de0910-b915-5825-8764-fcab5747af0e",
+        "Name": "NoSuchScope-Edge-Security-Test-MUX",
+        "Reasons": [
+          "Invalid scope"
+        ]
+      },
+      {
+        "Id": "3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57",
+        "Name": "Workstation-Edge-Security-MetaBadDate-MUX",
+        "Reasons": [
+          "Invalid review date format in description."
+        ]
+      },
+      {
+        "Id": "628eb19d-4d4c-5e40-89bf-2acd783a93e1",
+        "Name": "Workstation-Edge-Security-Test-NOMODE",
+        "Reasons": [
+          "Invalid mode"
+        ]
+      },
+      {
+        "Id": "88f5811f-e70b-54da-bd6e-2c889b1b7ee5",
+        "Name": "Workstation-NoSuchProduct-Security-Test-MUX",
+        "Reasons": [
+          "Invalid product"
+        ]
+      },
+      {
+        "Id": "8aabbcba-53e0-56bb-a522-77ca565b53fd",
+        "Name": "Workstation-Edge-Security-Default-ADD",
+        "Reasons": [
+          "Default audience is only valid for MUX policies."
+        ]
+      },
+      {
+        "Id": "8b997c4e-b809-5a92-a298-ee114119c9b3",
+        "Name": "Workstation-Edge-Security--MUX",
+        "Reasons": [
+          "Audience is missing."
+        ]
+      },
+      {
+        "Id": "8e3225a8-f530-508f-a469-499ce19dd125",
+        "Name": "Workstation-Edge-Security-MetaBadDescription-MUX",
+        "Reasons": [
+          "Description not compliant. Not the right number of parts."
+        ]
+      },
+      {
+        "Id": "902cd15d-95ec-561c-8da4-74f0eed79ccb",
+        "Name": "Workstation-Edge-NoSuchDomain-Test-MUX",
+        "Reasons": [
+          "Invalid domain"
+        ]
+      },
+      {
+        "Id": "e49a70a9-7dd5-5322-baa5-1e2321e8196a",
+        "Name": "Workstation-Edge-Security-MetaMissingTicket-MUX",
+        "Reasons": [
+          "Ticket number is missing in description."
+        ]
+      },
+      {
+        "Id": "f287dd0e-9a1f-5df4-837e-08e36b2c0465",
+        "Name": "Workstation-Edge-Security-MetaMissingReason-MUX",
+        "Reasons": [
+          "Reason is missing in description."
+        ]
+      }
+    ],
+    "PerSettingConflictIssues": [
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.empty"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxMissingDefault-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.missingdefault"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.multigroups"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.noinclude"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxOutOfScope-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.outofscope"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.rolloutexclude"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Both Baseline and Default are missing as audience for the setting in scope. One of them is needed."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.setting.muxnobasedefault"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "If baseline sets a MUX setting, no other audience can set the same setting within scope."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX",
+          "Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.coexist"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "If baseline sets a MUX setting, no other audience can set the same setting within scope."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX",
+          "Workstation-Edge-Security-MuxBaselineMissingExcl-RolloutA-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.baselinemissingexcl"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "If baseline sets a MUX setting, no other audience can set the same setting within scope."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-MuxRolloutOverlap-Baseline-MUX",
+          "Workstation-Edge-Security-MuxRolloutOverlap-RolloutA-MUX",
+          "Workstation-Edge-Security-MuxRolloutOverlap-RolloutB-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.mux.rolloutoverlap"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "If baseline sets a MUX setting, no other audience can set the same setting within scope."
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX",
+          "Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.setting.muxbaselineextra"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?",
+          "Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?"
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-SettingMixedModesA-Baseline-ADD",
+          "Workstation-Edge-Security-SettingMixedModesB-Baseline-MUX"
+        ],
+        "SettingEndpoint": "ipg.err.setting.mixedmodes"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?"
+        ],
+        "RelatedPolicies": [
+          "Workstation-Edge-Security-SettingMultiNamespaceA-Baseline-ADD",
+          "Workstation-Edge-UserExperience-SettingMultiNamespaceB-Baseline-ADD"
+        ],
+        "SettingEndpoint": "ipg.err.setting.multins"
+      }
+    ],
+    "PolicyAssignmentTopologyIssues": [
+      {
+        "Groups": [
+          "ConfigurationPolicyScope-Workstation",
+          "IPG-ERR-Workstation-InScope-A"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddBaselineMulti-Baseline-ADD"
+        ],
+        "Reason": "ADD baseline policy is assigned to multiple groups."
+      },
+      {
+        "Groups": [
+          "ConfigurationPolicyScope-Workstation"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddAudienceScopeTarget-Audience-ADD"
+        ],
+        "Reason": "ADD audience policy is assigned to the scope target group."
+      },
+      {
+        "Groups": [
+          "ConfigurationPolicyScope-Workstation"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxCustomScope-Custom-MUX"
+        ],
+        "Reason": "MUX custom policy is assigned to the scope target group."
+      },
+      {
+        "Groups": [
+          "ConfigurationPolicyScope-Workstation"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-Smartscreen-Default-MUX"
+        ],
+        "Reason": "MUX policy is assigned to multiple groups."
+      },
+      {
+        "Groups": [
+          "IPG-Clean-Employee-Finance"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD"
+        ],
+        "Reason": "ADD policy is assigned to an empty group."
+      },
+      {
+        "Groups": [
+          "IPG-Clean-Employee-Finance"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD"
+        ],
+        "Reason": "Policy is assigned to a group that is deleted. Please remove the assignment."
+      },
+      {
+        "Groups": [
+          "IPG-Clean-Employee-Legal"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD"
+        ],
+        "Reason": "ADD policy is assigned to an empty group."
+      },
+      {
+        "Groups": [
+          "IPG-Clean-Employee-Legal"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD"
+        ],
+        "Reason": "Policy is assigned to a group that is deleted. Please remove the assignment."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-EmptyGroup"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddEmptyGroup-Audience-ADD"
+        ],
+        "Reason": "ADD policy is assigned to an empty group."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-EmptyGroup"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddEmptyGroup-Audience-ADD"
+        ],
+        "Reason": "Policy is assigned to a group that is deleted. Please remove the assignment."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-EmptyGroup"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX"
+        ],
+        "Reason": "MUX policy is assigned to an empty group."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-EmptyGroup"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX"
+        ],
+        "Reason": "Policy is assigned to a group that is deleted. Please remove the assignment."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddAudienceExclude-Audience-ADD"
+        ],
+        "Reason": "ADD audience policy has excluded groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddBaselineExclude-Baseline-ADD"
+        ],
+        "Reason": "ADD baseline policy has excluded groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddNoInclude-Audience-ADD"
+        ],
+        "Reason": "ADD audience policy has excluded groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxBaselineUnexpectedExcl-Baseline-MUX"
+        ],
+        "Reason": "MUX baseline policy has unexpected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxCustomUnexpectedExcl-Custom-MUX"
+        ],
+        "Reason": "MUX custom policy has unexpected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxDefaultUnexpectedExcl-Default-MUX"
+        ],
+        "Reason": "MUX default policy has unexpected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX"
+        ],
+        "Reason": "MUX rollout policy has excluded groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-UnexpectedExclude"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX"
+        ],
+        "Reason": "MUX rollout policy has excluded groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A",
+          "IPG-ERR-Workstation-InScope-B"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxDefaultMissingExcl-Default-MUX"
+        ],
+        "Reason": "MUX default policy is missing expected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A",
+          "IPG-ERR-Workstation-InScope-B"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX"
+        ],
+        "Reason": "MUX policy is assigned to multiple groups."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddBaselineWrong-Baseline-ADD"
+        ],
+        "Reason": "ADD baseline policy is assigned to the wrong group."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX"
+        ],
+        "Reason": "MUX baseline policy is missing expected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxBaselineWrong-Baseline-MUX"
+        ],
+        "Reason": "MUX baseline policy is assigned to the wrong group."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-A"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxDefaultWrong-Default-MUX"
+        ],
+        "Reason": "MUX default policy is assigned to the wrong group."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-B"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxCustomMissingExcl-Custom-MUX"
+        ],
+        "Reason": "MUX custom policy is missing expected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-InScope-B"
+        ],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxDefaultMissingExcl-Custom-MUX"
+        ],
+        "Reason": "MUX custom policy is missing expected exclusions."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-OutOfScope"
+        ],
+        "Objects": [
+          "OUT-OF-SCOPE"
+        ],
+        "Policies": [
+          "Workstation-Edge-Security-AddOutOfScope-Audience-ADD"
+        ],
+        "Reason": "ADD policy is assigned to group that has members out of scope."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-OutOfScope"
+        ],
+        "Objects": [
+          "OUT-OF-SCOPE"
+        ],
+        "Policies": [
+          "Workstation-Edge-Security-MuxOutOfScope-Custom-MUX"
+        ],
+        "Reason": "MUX policy is assigned to group that has members out of scope."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-Overlap-A",
+          "IPG-ERR-Workstation-Overlap-B"
+        ],
+        "Objects": [
+          "IL-7468"
+        ],
+        "Policies": [],
+        "Reason": "MUX custom audience groups have overlapping members."
+      },
+      {
+        "Groups": [
+          "IPG-ERR-Workstation-Overlap-A",
+          "IPG-ERR-Workstation-Overlap-B"
+        ],
+        "Objects": [
+          "IL-7468"
+        ],
+        "Policies": [],
+        "Reason": "MUX rollout groups have overlapping members."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddMissingAssignment-Baseline-ADD"
+        ],
+        "Reason": "ADD policy does not have required assignment."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-AddNoInclude-Audience-ADD"
+        ],
+        "Reason": "ADD policy has no group assignment."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX",
+          "Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX"
+        ],
+        "Reason": "MUX baseline and permanent audience policies coexist."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxDefaultOnly-Default-MUX"
+        ],
+        "Reason": "MUX default policy exists without custom audience."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxMissingDefault-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX"
+        ],
+        "Reason": "MUX policy has no group assignment."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-MuxOutOfScope-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX",
+          "Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX"
+        ],
+        "Reason": "MUX baseline and permanent audience policies coexist."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX"
+        ],
+        "Reason": "MUX permanent audience policies exist without default policy."
+      },
+      {
+        "Groups": [],
+        "Objects": [],
+        "Policies": [
+          "Workstation-Edge-Security-Smartscreen-Default-MUX"
+        ],
+        "Reason": "Policy is assigned to a group that is deleted. Please remove the assignment."
+      }
+    ],
+    "ReviewIntervalIssues": [
+      {
+        "DaysUntilReview": -145,
+        "Passed": false,
+        "Reason": "Expired",
+        "RelatedPolicy": "Workstation-Edge-Security-ReviewExpired-Baseline-ADD"
+      },
+      {
+        "DaysUntilReview": 15,
+        "Passed": false,
+        "Reason": "Review date is approaching.",
+        "RelatedPolicy": "Workstation-Edge-Security-ReviewApproaching-Baseline-ADD"
+      },
+      {
+        "DaysUntilReview": 554,
+        "Passed": false,
+        "Reason": "Review date is beyond the allowed interval.",
+        "RelatedPolicy": "Workstation-Edge-Security-ReviewTooFar-Baseline-ADD"
+      }
+    ],
+    "ScopeOverlapIssues": [
+      {
+        "Groups": [
+          "ConfigurationPolicyScope-Employee",
+          "ConfigurationPolicyScope-Workstation"
+        ],
+        "Objects": [
+          "IL-7468"
+        ],
+        "Reason": "User or device object is in multiple scopes."
+      }
+    ]
+  },
+  "Machine": {
+    "MetadataParsingIssues": [
+      {
+        "Id": "391e9130-62d0-5431-bcb9-c6235e529f98",
+        "Name": "BrokenName",
+        "Reasons": [
+          "InvalidPolicyNamePartCount"
+        ]
+      },
+      {
+        "Id": "39de0910-b915-5825-8764-fcab5747af0e",
+        "Name": "NoSuchScope-Edge-Security-Test-MUX",
+        "Reasons": [
+          "InvalidScope"
+        ]
+      },
+      {
+        "Id": "3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57",
+        "Name": "Workstation-Edge-Security-MetaBadDate-MUX",
+        "Reasons": [
+          "InvalidReviewDateFormat"
+        ]
+      },
+      {
+        "Id": "628eb19d-4d4c-5e40-89bf-2acd783a93e1",
+        "Name": "Workstation-Edge-Security-Test-NOMODE",
+        "Reasons": [
+          "InvalidMode"
+        ]
+      },
+      {
+        "Id": "88f5811f-e70b-54da-bd6e-2c889b1b7ee5",
+        "Name": "Workstation-NoSuchProduct-Security-Test-MUX",
+        "Reasons": [
+          "InvalidProduct"
+        ]
+      },
+      {
+        "Id": "8aabbcba-53e0-56bb-a522-77ca565b53fd",
+        "Name": "Workstation-Edge-Security-Default-ADD",
+        "Reasons": [
+          "DefaultAudienceUsedWithADD"
+        ]
+      },
+      {
+        "Id": "8b997c4e-b809-5a92-a298-ee114119c9b3",
+        "Name": "Workstation-Edge-Security--MUX",
+        "Reasons": [
+          "MissingAudience"
+        ]
+      },
+      {
+        "Id": "8e3225a8-f530-508f-a469-499ce19dd125",
+        "Name": "Workstation-Edge-Security-MetaBadDescription-MUX",
+        "Reasons": [
+          "InvalidDescriptionPartCount"
+        ]
+      },
+      {
+        "Id": "902cd15d-95ec-561c-8da4-74f0eed79ccb",
+        "Name": "Workstation-Edge-NoSuchDomain-Test-MUX",
+        "Reasons": [
+          "InvalidDomain"
+        ]
+      },
+      {
+        "Id": "e49a70a9-7dd5-5322-baa5-1e2321e8196a",
+        "Name": "Workstation-Edge-Security-MetaMissingTicket-MUX",
+        "Reasons": [
+          "MissingTicketNumber"
+        ]
+      },
+      {
+        "Id": "f287dd0e-9a1f-5df4-837e-08e36b2c0465",
+        "Name": "Workstation-Edge-Security-MetaMissingReason-MUX",
+        "Reasons": [
+          "MissingPolicyReason"
+        ]
+      }
+    ],
+    "PerSettingConflictIssues": [
+      {
+        "Passed": false,
+        "Reasons": [
+          "BaselineMuxSettingHasAdditionalAudiences"
+        ],
+        "RelatedPolicyIds": [
+          "75693a6d-05f2-5567-8279-6a18e51ad5ce",
+          "7c7bb6d7-cb72-5bce-92a0-7617af0a9608",
+          "db0fcc6d-52ed-50b2-bd58-782d4bbd91a0"
+        ],
+        "SettingEndpoint": "ipg.err.mux.rolloutoverlap"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "BaselineMuxSettingHasAdditionalAudiences"
+        ],
+        "RelatedPolicyIds": [
+          "7c7666b5-97a9-5843-8b07-1fc20200c1c6",
+          "e97c13e4-c7ac-51aa-8fca-363548b08b10"
+        ],
+        "SettingEndpoint": "ipg.err.mux.baselinemissingexcl"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "BaselineMuxSettingHasAdditionalAudiences"
+        ],
+        "RelatedPolicyIds": [
+          "8e25b8a8-2432-5032-bc08-0eaa22e24949",
+          "d442e807-491f-5730-a45c-174126ea8145"
+        ],
+        "SettingEndpoint": "ipg.err.setting.muxbaselineextra"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "BaselineMuxSettingHasAdditionalAudiences"
+        ],
+        "RelatedPolicyIds": [
+          "99ad837b-d551-56b3-935a-ccbdabe301ba",
+          "c3b50da1-8b59-50b2-818b-5630da0e7e6f"
+        ],
+        "SettingEndpoint": "ipg.err.mux.coexist"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "31f5a317-3126-53ec-9bab-71e38084af88"
+        ],
+        "SettingEndpoint": "ipg.err.mux.empty"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "5d360463-04e8-5f07-9f56-fc977a46775e"
+        ],
+        "SettingEndpoint": "ipg.err.mux.noinclude"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "633cdec0-fe9e-585e-82cf-3f1b99c0a545"
+        ],
+        "SettingEndpoint": "ipg.err.mux.rolloutexclude"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "64f06f32-5628-5cc7-9dc0-30bc1454394d"
+        ],
+        "SettingEndpoint": "ipg.err.mux.missingdefault"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "78371a63-1810-5971-8145-8d44fd576d39"
+        ],
+        "SettingEndpoint": "ipg.err.mux.outofscope"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "80a59926-09b0-5505-839b-fed8e13861a1"
+        ],
+        "SettingEndpoint": "ipg.err.setting.muxnobasedefault"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MissingBaselineOrDefaultAudienceForMuxSetting"
+        ],
+        "RelatedPolicyIds": [
+          "9d4744c8-36e1-5add-8fe2-65eed85d5999"
+        ],
+        "SettingEndpoint": "ipg.err.mux.multigroups"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MixedAssignmentModesForSetting",
+          "MultipleGovernanceNamespacesForSettingScope"
+        ],
+        "RelatedPolicyIds": [
+          "04448e70-b81d-5b43-b6f3-ab0bc1b501b9",
+          "dd7a1442-30cf-56a1-8687-4fcf26532616"
+        ],
+        "SettingEndpoint": "ipg.err.setting.mixedmodes"
+      },
+      {
+        "Passed": false,
+        "Reasons": [
+          "MultipleGovernanceNamespacesForSettingScope"
+        ],
+        "RelatedPolicyIds": [
+          "a8890ad3-1f4a-54ea-8801-b29ba51cfe34",
+          "ca419763-d426-5128-9060-7d52d4d19c5c"
+        ],
+        "SettingEndpoint": "ipg.err.setting.multins"
+      }
+    ],
+    "PolicyAssignmentTopologyIssues": [
+      {
+        "GroupIds": [
+          "005a8511-9f6c-587d-8105-30310487e4c1",
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "9d4744c8-36e1-5add-8fe2-65eed85d5999"
+        ],
+        "Reason": "MuxPolicyAssignedToMultipleGroups"
+      },
+      {
+        "GroupIds": [
+          "005a8511-9f6c-587d-8105-30310487e4c1",
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "f15e3717-de3c-584e-a551-4bf10cf527d6"
+        ],
+        "Reason": "MuxDefaultPolicyMissingExpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "005a8511-9f6c-587d-8105-30310487e4c1"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "2309c5b9-2233-551c-a014-e53a0b4e6195"
+        ],
+        "Reason": "MuxCustomPolicyMissingExpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "005a8511-9f6c-587d-8105-30310487e4c1"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "c0c9af42-cd7b-5be4-88b3-e20038d45ebd"
+        ],
+        "Reason": "MuxCustomPolicyMissingExpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "18356a42-0c94-5551-b693-c1b20c73d545"
+        ],
+        "ObjectIds": [
+          "99999999-9999-4999-8999-999999999999"
+        ],
+        "PolicyIds": [
+          "22f5c401-07af-5059-9a0a-7e4f3f5794f2"
+        ],
+        "Reason": "AddAssignedGroupHasMembersOutOfScope"
+      },
+      {
+        "GroupIds": [
+          "18356a42-0c94-5551-b693-c1b20c73d545"
+        ],
+        "ObjectIds": [
+          "99999999-9999-4999-8999-999999999999"
+        ],
+        "PolicyIds": [
+          "78371a63-1810-5971-8145-8d44fd576d39"
+        ],
+        "Reason": "MuxAssignedGroupHasMembersOutOfScope"
+      },
+      {
+        "GroupIds": [
+          "26adab71-8e70-55e4-869d-17f25e334cff"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0"
+        ],
+        "Reason": "AddPolicyAssignedToEmptyGroup"
+      },
+      {
+        "GroupIds": [
+          "26adab71-8e70-55e4-869d-17f25e334cff"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "73b7ff3c-ad51-582f-b8eb-ddc9b57ebcb0"
+        ],
+        "Reason": "ReferencedAssignmentGroupNotFound"
+      },
+      {
+        "GroupIds": [
+          "60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+          "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+        ],
+        "ObjectIds": [
+          "2e6b9f69-390e-4d24-a110-3e57870499cb"
+        ],
+        "PolicyIds": [],
+        "Reason": "MuxCustomAudienceGroupsHaveOverlappingMembers"
+      },
+      {
+        "GroupIds": [
+          "60ae2b55-926f-5922-9052-4ec4bc1d4ab3",
+          "ce99aee4-a285-5a6f-924a-01c9a3532d6d"
+        ],
+        "ObjectIds": [
+          "2e6b9f69-390e-4d24-a110-3e57870499cb"
+        ],
+        "PolicyIds": [],
+        "Reason": "MuxRolloutGroupsHaveOverlappingMembers"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "1726b745-fc23-5f36-87ea-ccb606f96767"
+        ],
+        "Reason": "MuxDefaultPolicyHasUnexpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "1d1f11a7-62b0-55fb-9609-ef5e347057a6"
+        ],
+        "Reason": "MuxCustomPolicyHasUnexpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "3ce9bf62-95bb-57e6-b42f-e37903784b7b"
+        ],
+        "Reason": "AddAudiencePolicyHasExcludedGroup"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "5d360463-04e8-5f07-9f56-fc977a46775e"
+        ],
+        "Reason": "MuxRolloutPolicyHasExcludedGroup"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "633cdec0-fe9e-585e-82cf-3f1b99c0a545"
+        ],
+        "Reason": "MuxRolloutPolicyHasExcludedGroup"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "7e02e0b4-5854-5c4e-83cd-6a437ee9d2a3"
+        ],
+        "Reason": "AddBaselinePolicyHasExcludedGroup"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "9ce464cc-7eeb-5818-b3a3-da900c01fda3"
+        ],
+        "Reason": "AddAudiencePolicyHasExcludedGroup"
+      },
+      {
+        "GroupIds": [
+          "96541828-a86f-502f-8a27-9065954bb070"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "e94d9093-e650-5ed7-bde5-c43f193d3c00"
+        ],
+        "Reason": "MuxBaselinePolicyHasUnexpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "a616d470-4d7f-52f1-9342-32e5143be84d",
+          "c159ef80-6f50-5d1b-8047-887583a57a88"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "331f8dcc-1a6c-5462-8dc4-f069db2a5b8b"
+        ],
+        "Reason": "AddBaselinePolicyAssignedToMultipleGroups"
+      },
+      {
+        "GroupIds": [
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "24845a49-9cd6-58d2-acb3-b495a3bce80d"
+        ],
+        "Reason": "MuxBaselinePolicyAssignedToWrongGroup"
+      },
+      {
+        "GroupIds": [
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "6182ce3f-6b73-5942-823d-74a475f1d245"
+        ],
+        "Reason": "AddBaselinePolicyAssignedToWrongGroup"
+      },
+      {
+        "GroupIds": [
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "e4684928-869b-52f4-9dad-ede754a1aef5"
+        ],
+        "Reason": "MuxDefaultPolicyAssignedToWrongGroup"
+      },
+      {
+        "GroupIds": [
+          "a616d470-4d7f-52f1-9342-32e5143be84d"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "e97c13e4-c7ac-51aa-8fca-363548b08b10"
+        ],
+        "Reason": "MuxBaselinePolicyMissingExpectedExclusions"
+      },
+      {
+        "GroupIds": [
+          "c159ef80-6f50-5d1b-8047-887583a57a33",
+          "c159ef80-6f50-5d1b-8047-887583a57a88"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "7c6bbf33-b683-5f4f-bd77-128703190859"
+        ],
+        "Reason": "MuxPolicyAssignedToMultipleGroups"
+      },
+      {
+        "GroupIds": [
+          "c159ef80-6f50-5d1b-8047-887583a57a33"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "7c6bbf33-b683-5f4f-bd77-128703190859"
+        ],
+        "Reason": "ReferencedAssignmentGroupNotFound"
+      },
+      {
+        "GroupIds": [
+          "c159ef80-6f50-5d1b-8047-887583a57a88"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "466df92c-dae7-5693-9704-c7370c44ad2b"
+        ],
+        "Reason": "MuxCustomPolicyAssignedToScopeTargetGroup"
+      },
+      {
+        "GroupIds": [
+          "c159ef80-6f50-5d1b-8047-887583a57a88"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "979de462-471b-590d-91af-eee340a66f5a"
+        ],
+        "Reason": "AddAudiencePolicyAssignedToScopeTargetGroup"
+      },
+      {
+        "GroupIds": [
+          "dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "1e0856b5-2b20-5b75-8a63-7273a43c9059"
+        ],
+        "Reason": "AddPolicyAssignedToEmptyGroup"
+      },
+      {
+        "GroupIds": [
+          "dcacb9d1-4b9a-53e7-bb7d-4c190c7a35a7"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "1e0856b5-2b20-5b75-8a63-7273a43c9059"
+        ],
+        "Reason": "ReferencedAssignmentGroupNotFound"
+      },
+      {
+        "GroupIds": [
+          "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "31f5a317-3126-53ec-9bab-71e38084af88"
+        ],
+        "Reason": "MuxPolicyAssignedToEmptyGroup"
+      },
+      {
+        "GroupIds": [
+          "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "31f5a317-3126-53ec-9bab-71e38084af88"
+        ],
+        "Reason": "ReferencedAssignmentGroupNotFound"
+      },
+      {
+        "GroupIds": [
+          "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "c0620009-b8ab-5e53-b70a-22ab2479f8a2"
+        ],
+        "Reason": "AddPolicyAssignedToEmptyGroup"
+      },
+      {
+        "GroupIds": [
+          "ff3c1263-63b0-5b3c-95d2-7f062f310300"
+        ],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "c0620009-b8ab-5e53-b70a-22ab2479f8a2"
+        ],
+        "Reason": "ReferencedAssignmentGroupNotFound"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "31f5a317-3126-53ec-9bab-71e38084af88"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "5d360463-04e8-5f07-9f56-fc977a46775e"
+        ],
+        "Reason": "MuxPolicyHasNoGroupAssignment"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "64f06f32-5628-5cc7-9dc0-30bc1454394d"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "78371a63-1810-5971-8145-8d44fd576d39"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "80a59926-09b0-5505-839b-fed8e13861a1"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "83faa735-003b-589d-b078-aa0656fc6086"
+        ],
+        "Reason": "MuxDefaultPolicyWithoutCustomAudience"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "8e25b8a8-2432-5032-bc08-0eaa22e24949",
+          "d442e807-491f-5730-a45c-174126ea8145"
+        ],
+        "Reason": "MuxBaselineAndPermanentAudienceCoexist"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "8e25b8a8-2432-5032-bc08-0eaa22e24949"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "99ad837b-d551-56b3-935a-ccbdabe301ba",
+          "c3b50da1-8b59-50b2-818b-5630da0e7e6f"
+        ],
+        "Reason": "MuxBaselineAndPermanentAudienceCoexist"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "99ad837b-d551-56b3-935a-ccbdabe301ba"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "9ce464cc-7eeb-5818-b3a3-da900c01fda3"
+        ],
+        "Reason": "AddPolicyHasNoGroupAssignment"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "9d4744c8-36e1-5add-8fe2-65eed85d5999"
+        ],
+        "Reason": "MuxPermanentAudienceMissingDefaultPolicy"
+      },
+      {
+        "GroupIds": [],
+        "ObjectIds": [],
+        "PolicyIds": [
+          "a87169bd-bd94-5a62-9dd6-5f44d8d582ab"
+        ],
+        "Reason": "AddPolicyAssignmentMissing"
+      }
+    ],
+    "ReviewIntervalIssues": [
+      {
+        "DaysUntilReview": -145,
+        "Passed": false,
+        "Reason": "ReviewDateExpired",
+        "RelatedPolicyId": "1e0145c6-c5b0-58bd-85c2-bdb710a36f8b"
+      },
+      {
+        "DaysUntilReview": 15,
+        "Passed": false,
+        "Reason": "ReviewDateApproaching",
+        "RelatedPolicyId": "b7ee3d36-9c57-586a-b89e-18d0bf0368ea"
+      },
+      {
+        "DaysUntilReview": 554,
+        "Passed": false,
+        "Reason": "ReviewDateBeyondAllowedInterval",
+        "RelatedPolicyId": "c9f0af51-d28b-5643-9cc9-7a1db11eeab5"
+      }
+    ],
+    "ScopeOverlapIssues": [
+      {
+        "GroupIds": [
+          "17687774-7192-5ac9-85d1-4831b251b5a4",
+          "c159ef80-6f50-5d1b-8047-887583a57a88"
+        ],
+        "ObjectIds": [
+          "2e6b9f69-390e-4d24-a110-3e57870499cb"
+        ],
+        "Reason": "ObjectInMultipleScopeGroups"
+      }
+    ]
+  }
+}

@@ -1,0 +1,756 @@
+Received: from AS8PR07MB8233.eurprd07.prod.outlook.com (2603:10a6:20b:378::21)
+ by DB5PR07MB11957.eurprd07.prod.outlook.com with HTTPS; Sat, 30 May 2026
+ 09:42:58 +0000
+Received: from DB5PR07MB11957.eurprd07.prod.outlook.com (2603:10a6:10:655::18)
+ by AS8PR07MB8233.eurprd07.prod.outlook.com (2603:10a6:20b:378::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.71.16; Sat, 30 May
+ 2026 09:42:58 +0000
+Received: from DB5PR07MB11957.eurprd07.prod.outlook.com
+ ([fe80::f71b:aa56:fe49:48c7]) by DB5PR07MB11957.eurprd07.prod.outlook.com
+ ([fe80::f71b:aa56:fe49:48c7%5]) with mapi id 15.21.0071.014; Sat, 30 May 2026
+ 09:42:58 +0000
+From: Peter Tolvaj <tolvajp@petertolvaj.nl>
+To: Peter Tolvaj <tolvajp@petertolvaj.nl>
+Subject: IPG audit result - 30/05/2026 11:42
+Thread-Topic: IPG audit result - 30/05/2026 11:42
+Thread-Index: AQHc8BiyXE5879YsYE+ZUvr7AU+Jgw==
+Date: Sat, 30 May 2026 09:42:58 +0000
+Message-ID:
+	<DB5PR07MB11957ADB7D24DC9A46BE678C1D0172@DB5PR07MB11957.eurprd07.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource:
+	DB5PR07MB11957.eurprd07.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	fcca96f6-b904-4cf1-b607-08debe2fd515
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	D1U1iiTQz11meFMKohhfepGAEntPLed7RFLRF9lkrPY+x1SNM37DK7VgnBPbD/116N6btw65loDxcgjuNpfRO8AcLdjtv4/t2p5r6pP0mog5Pswbh5iUKTad8XicqevVcA/e2ZZbW61sQC80jZSRLXspdENN7iPsFVM0MwzInwvLCWDsMT777vsMnD5Qm6tg2pfu3za6pH/eWduv1S4g0tYmzWgLFqVehCgn6PIsQAD2MkRGWOda+KTWqbdklbUktB+WQpOF+3HBXZbLTiJjqevzkdR/8U33mEAQZnhkHwyjoYPyBZyL2wqtlX+NQc6ulldTu5GMLpE+jrhGHir8vWhNut0ch7LTM7FJFOfrqoskkZleN9X90MSgC1QpT4F18GgzulQqz6RQShmesI3gsIUh1jc9VH4u57/piXjudTykFxsyOC/KpwnqrBl6QfGSxUp+40gnsBO+k2mdlsXJxNr3sitrUAIOdybAYIdDCVz7BNdzfgQUiH20PXnMaUNcHvUKGSIqkS7m326af3r0QRmeRN3Izbb25+zdGhdht9FTXe3F48k0stOnnxI+Z4ywVb51iFRgpa2EsG2exYvWs5yojDtsxcbD/YT4K/Kh9VXlNaHogKJ7kWBkKDuEgaFtRr0m9yDp35UvsaRbH3q3bieZi4X1LpvPGpSt2hUA2caNHDwljdmCqBcbGB+8/6sluX0QBOgX644i1VuG2r6aMOvnrPO+uyT/nAWzD82wd6TUWaLoKb6vPC8vERnDAOwv3qnQUcZbs5AcwQNYpSMsMSHI1b6mIlhxRyNM/Z0uwGhIUnjboV7WXESaTwE4gmCA
+Content-Type: multipart/alternative;
+	boundary="_000_DB5PR07MB11957ADB7D24DC9A46BE678C1D0172DB5PR07MB11957eu_"
+MIME-Version: 1.0
+
+--_000_DB5PR07MB11957ADB7D24DC9A46BE678C1D0172DB5PR07MB11957eu_
+Content-Type: text/plain; charset="us-ascii"
+
+Good morning team!
+
+IPG audit result - 30/05/2026 11:42
+
+Metadata Parsing Issues
+
+Policies listed in this section could not be parsed correctly and were excluded from the remaining audit checks.
+
+Id      Name    Reasons
+391e9130-62d0-5431-bcb9-c6235e529f98    BrokenName      Name not compliant. Not the right number of parts.
+39de0910-b915-5825-8764-fcab5747af0e    NoSuchScope-Edge-Security-Test-MUX      Invalid scope
+3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57    Workstation-Edge-Security-MetaBadDate-MUX       Invalid review date format in description.
+628eb19d-4d4c-5e40-89bf-2acd783a93e1    Workstation-Edge-Security-Test-NOMODE   Invalid mode
+88f5811f-e70b-54da-bd6e-2c889b1b7ee5    Workstation-NoSuchProduct-Security-Test-MUX     Invalid product
+8aabbcba-53e0-56bb-a522-77ca565b53fd    Workstation-Edge-Security-Default-ADD   Default audience is only valid for MUX policies.
+8b997c4e-b809-5a92-a298-ee114119c9b3    Workstation-Edge-Security--MUX  Audience is missing.
+8e3225a8-f530-508f-a469-499ce19dd125    Workstation-Edge-Security-MetaBadDescription-MUX        Description not compliant. Not the right number of parts.
+902cd15d-95ec-561c-8da4-74f0eed79ccb    Workstation-Edge-NoSuchDomain-Test-MUX  Invalid domain
+e49a70a9-7dd5-5322-baa5-1e2321e8196a    Workstation-Edge-Security-MetaMissingTicket-MUX Ticket number is missing in description.
+f287dd0e-9a1f-5df4-837e-08e36b2c0465    Workstation-Edge-Security-MetaMissingReason-MUX Reason is missing in description.
+Per Setting Conflict Issues
+Passed  Reasons RelatedPolicies SettingEndpoint
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX      ipg.err.mux.empty
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxMissingDefault-Custom-MUX  ipg.err.mux.missingdefault
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX  ipg.err.mux.multigroups
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX     ipg.err.mux.noinclude
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxOutOfScope-Custom-MUX      ipg.err.mux.outofscope
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX        ipg.err.mux.rolloutexclude
+False   Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.      Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX    ipg.err.setting.muxnobasedefault
+False   If baseline sets a MUX setting, no other audience can set the same setting within scope.
+
+  *   Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX
+  *   Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX
+
+ipg.err.mux.coexist
+False   If baseline sets a MUX setting, no other audience can set the same setting within scope.
+
+  *   Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX
+  *   Workstation-Edge-Security-MuxBaselineMissingExcl-RolloutA-MUX
+
+ipg.err.mux.baselinemissingexcl
+False   If baseline sets a MUX setting, no other audience can set the same setting within scope.
+
+  *   Workstation-Edge-Security-MuxRolloutOverlap-Baseline-MUX
+  *   Workstation-Edge-Security-MuxRolloutOverlap-RolloutA-MUX
+  *   Workstation-Edge-Security-MuxRolloutOverlap-RolloutB-MUX
+
+ipg.err.mux.rolloutoverlap
+False   If baseline sets a MUX setting, no other audience can set the same setting within scope.
+
+  *   Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX
+  *   Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX
+
+ipg.err.setting.muxbaselineextra
+False
+
+  *   Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?
+  *   Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?
+
+  *   Workstation-Edge-Security-SettingMixedModesA-Baseline-ADD
+  *   Workstation-Edge-Security-SettingMixedModesB-Baseline-MUX
+
+ipg.err.setting.mixedmodes
+False   Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?
+
+  *   Workstation-Edge-Security-SettingMultiNamespaceA-Baseline-ADD
+  *   Workstation-Edge-UserExperience-SettingMultiNamespaceB-Baseline-ADD
+
+ipg.err.setting.multins
+Review Interval Issues
+DaysUntilReview Passed  Reason  RelatedPolicy
+-145    False   Expired Workstation-Edge-Security-ReviewExpired-Baseline-ADD
+15      False   Review date is approaching.     Workstation-Edge-Security-ReviewApproaching-Baseline-ADD
+554     False   Review date is beyond the allowed interval.     Workstation-Edge-Security-ReviewTooFar-Baseline-ADD
+Scope Overlap Issues
+Groups  Objects Reason
+
+  *   ConfigurationPolicyScope-Employee
+  *   ConfigurationPolicyScope-Workstation
+
+IL-7468 User or device object is in multiple scopes.
+Policy Assignment Topology Issues
+Groups  Objects Policies        Reason
+
+  *   ConfigurationPolicyScope-Workstation
+  *   IPG-ERR-Workstation-InScope-A
+
+Workstation-Edge-Security-AddBaselineMulti-Baseline-ADD ADD baseline policy is assigned to multiple groups.
+ConfigurationPolicyScope-Workstation            Workstation-Edge-Security-AddAudienceScopeTarget-Audience-ADD   ADD audience policy is assigned to the scope target group.
+ConfigurationPolicyScope-Workstation            Workstation-Edge-Security-MuxCustomScope-Custom-MUX     MUX custom policy is assigned to the scope target group.
+ConfigurationPolicyScope-Workstation            Workstation-Edge-Security-Smartscreen-Default-MUX       MUX policy is assigned to multiple groups.
+IPG-Clean-Employee-Finance              Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD       ADD policy is assigned to an empty group.
+IPG-Clean-Employee-Finance              Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD       Policy is assigned to a group that is deleted. Please remove the assignment.
+IPG-Clean-Employee-Legal                Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD ADD policy is assigned to an empty group.
+IPG-Clean-Employee-Legal                Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD Policy is assigned to a group that is deleted. Please remove the assignment.
+IPG-ERR-EmptyGroup              Workstation-Edge-Security-AddEmptyGroup-Audience-ADD    ADD policy is assigned to an empty group.
+IPG-ERR-EmptyGroup              Workstation-Edge-Security-AddEmptyGroup-Audience-ADD    Policy is assigned to a group that is deleted. Please remove the assignment.
+IPG-ERR-EmptyGroup              Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX      MUX policy is assigned to an empty group.
+IPG-ERR-EmptyGroup              Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX      Policy is assigned to a group that is deleted. Please remove the assignment.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-AddAudienceExclude-Audience-ADD       ADD audience policy has excluded groups.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-AddBaselineExclude-Baseline-ADD       ADD baseline policy has excluded groups.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-AddNoInclude-Audience-ADD     ADD audience policy has excluded groups.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-MuxBaselineUnexpectedExcl-Baseline-MUX        MUX baseline policy has unexpected exclusions.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-MuxCustomUnexpectedExcl-Custom-MUX    MUX custom policy has unexpected exclusions.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-MuxDefaultUnexpectedExcl-Default-MUX  MUX default policy has unexpected exclusions.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX     MUX rollout policy has excluded groups.
+IPG-ERR-UnexpectedExclude               Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX        MUX rollout policy has excluded groups.
+
+  *   IPG-ERR-Workstation-InScope-A
+  *   IPG-ERR-Workstation-InScope-B
+
+Workstation-Edge-Security-MuxDefaultMissingExcl-Default-MUX     MUX default policy is missing expected exclusions.
+
+  *   IPG-ERR-Workstation-InScope-A
+  *   IPG-ERR-Workstation-InScope-B
+
+Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX  MUX policy is assigned to multiple groups.
+IPG-ERR-Workstation-InScope-A           Workstation-Edge-Security-AddBaselineWrong-Baseline-ADD ADD baseline policy is assigned to the wrong group.
+IPG-ERR-Workstation-InScope-A           Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX   MUX baseline policy is missing expected exclusions.
+IPG-ERR-Workstation-InScope-A           Workstation-Edge-Security-MuxBaselineWrong-Baseline-MUX MUX baseline policy is assigned to the wrong group.
+IPG-ERR-Workstation-InScope-A           Workstation-Edge-Security-MuxDefaultWrong-Default-MUX   MUX default policy is assigned to the wrong group.
+IPG-ERR-Workstation-InScope-B           Workstation-Edge-Security-MuxCustomMissingExcl-Custom-MUX       MUX custom policy is missing expected exclusions.
+IPG-ERR-Workstation-InScope-B           Workstation-Edge-Security-MuxDefaultMissingExcl-Custom-MUX      MUX custom policy is missing expected exclusions.
+IPG-ERR-Workstation-OutOfScope  OUT-OF-SCOPE    Workstation-Edge-Security-AddOutOfScope-Audience-ADD    ADD policy is assigned to group that has members out of scope.
+IPG-ERR-Workstation-OutOfScope  OUT-OF-SCOPE    Workstation-Edge-Security-MuxOutOfScope-Custom-MUX      MUX policy is assigned to group that has members out of scope.
+
+  *   IPG-ERR-Workstation-Overlap-A
+  *   IPG-ERR-Workstation-Overlap-B
+
+IL-7468         MUX custom audience groups have overlapping members.
+
+  *   IPG-ERR-Workstation-Overlap-A
+  *   IPG-ERR-Workstation-Overlap-B
+
+IL-7468         MUX rollout groups have overlapping members.
+Workstation-Edge-Security-AddMissingAssignment-Baseline-ADD     ADD policy does not have required assignment.
+Workstation-Edge-Security-AddNoInclude-Audience-ADD     ADD policy has no group assignment.
+
+  *   Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX
+  *   Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX
+
+MUX baseline and permanent audience policies coexist.
+Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-MuxDefaultOnly-Default-MUX    MUX default policy exists without custom audience.
+Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX      MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-MuxMissingDefault-Custom-MUX  MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX  MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX     MUX policy has no group assignment.
+Workstation-Edge-Security-MuxOutOfScope-Custom-MUX      MUX permanent audience policies exist without default policy.
+
+  *   Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX
+  *   Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX
+
+MUX baseline and permanent audience policies coexist.
+Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX    MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX    MUX permanent audience policies exist without default policy.
+Workstation-Edge-Security-Smartscreen-Default-MUX       Policy is assigned to a group that is deleted. Please remove the assignment.
+________________________________
+
+Documentation:
+
+https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md
+
+--_000_DB5PR07MB11957ADB7D24DC9A46BE678C1D0172DB5PR07MB11957eu_
+Content-Type: text/html; charset="us-ascii"
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+</head>
+<body style="font-family: Segoe UI, Arial, sans-serif; font-size: 14px;">
+<p>Good morning team!</p>
+<p><strong>IPG audit result</strong> - 30/05/2026 11:42</p>
+<h2>Metadata Parsing Issues</h2>
+<p>Policies listed in this section could not be parsed correctly and were excluded from the remaining audit checks.</p>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Id</th>
+<th align="left">Name</th>
+<th align="left">Reasons</th>
+</tr>
+<tr>
+<td valign="top">391e9130-62d0-5431-bcb9-c6235e529f98</td>
+<td valign="top">BrokenName</td>
+<td valign="top">Name not compliant. Not the right number of parts.</td>
+</tr>
+<tr>
+<td valign="top">39de0910-b915-5825-8764-fcab5747af0e</td>
+<td valign="top">NoSuchScope-Edge-Security-Test-MUX</td>
+<td valign="top">Invalid scope</td>
+</tr>
+<tr>
+<td valign="top">3b8925d0-8ad1-5b79-90fb-a3bdee4e8b57</td>
+<td valign="top">Workstation-Edge-Security-MetaBadDate-MUX</td>
+<td valign="top">Invalid review date format in description.</td>
+</tr>
+<tr>
+<td valign="top">628eb19d-4d4c-5e40-89bf-2acd783a93e1</td>
+<td valign="top">Workstation-Edge-Security-Test-NOMODE</td>
+<td valign="top">Invalid mode</td>
+</tr>
+<tr>
+<td valign="top">88f5811f-e70b-54da-bd6e-2c889b1b7ee5</td>
+<td valign="top">Workstation-NoSuchProduct-Security-Test-MUX</td>
+<td valign="top">Invalid product</td>
+</tr>
+<tr>
+<td valign="top">8aabbcba-53e0-56bb-a522-77ca565b53fd</td>
+<td valign="top">Workstation-Edge-Security-Default-ADD</td>
+<td valign="top">Default audience is only valid for MUX policies.</td>
+</tr>
+<tr>
+<td valign="top">8b997c4e-b809-5a92-a298-ee114119c9b3</td>
+<td valign="top">Workstation-Edge-Security--MUX</td>
+<td valign="top">Audience is missing.</td>
+</tr>
+<tr>
+<td valign="top">8e3225a8-f530-508f-a469-499ce19dd125</td>
+<td valign="top">Workstation-Edge-Security-MetaBadDescription-MUX</td>
+<td valign="top">Description not compliant. Not the right number of parts.</td>
+</tr>
+<tr>
+<td valign="top">902cd15d-95ec-561c-8da4-74f0eed79ccb</td>
+<td valign="top">Workstation-Edge-NoSuchDomain-Test-MUX</td>
+<td valign="top">Invalid domain</td>
+</tr>
+<tr>
+<td valign="top">e49a70a9-7dd5-5322-baa5-1e2321e8196a</td>
+<td valign="top">Workstation-Edge-Security-MetaMissingTicket-MUX</td>
+<td valign="top">Ticket number is missing in description.</td>
+</tr>
+<tr>
+<td valign="top">f287dd0e-9a1f-5df4-837e-08e36b2c0465</td>
+<td valign="top">Workstation-Edge-Security-MetaMissingReason-MUX</td>
+<td valign="top">Reason is missing in description.</td>
+</tr>
+</tbody>
+</table>
+<h2>Per Setting Conflict Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Passed</th>
+<th align="left">Reasons</th>
+<th align="left">RelatedPolicies</th>
+<th align="left">SettingEndpoint</th>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX</td>
+<td valign="top">ipg.err.mux.empty</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxMissingDefault-Custom-MUX</td>
+<td valign="top">ipg.err.mux.missingdefault</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX</td>
+<td valign="top">ipg.err.mux.multigroups</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX</td>
+<td valign="top">ipg.err.mux.noinclude</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxOutOfScope-Custom-MUX</td>
+<td valign="top">ipg.err.mux.outofscope</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX</td>
+<td valign="top">ipg.err.mux.rolloutexclude</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Both Baseline and Default are missing as audience for the setting in scope. One of them is needed.</td>
+<td valign="top">Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX</td>
+<td valign="top">ipg.err.setting.muxnobasedefault</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">If baseline sets a MUX setting, no other audience can set the same setting within scope.</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX</li><li>Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX</li></ul>
+</td>
+<td valign="top">ipg.err.mux.coexist</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">If baseline sets a MUX setting, no other audience can set the same setting within scope.</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX</li><li>Workstation-Edge-Security-MuxBaselineMissingExcl-RolloutA-MUX</li></ul>
+</td>
+<td valign="top">ipg.err.mux.baselinemissingexcl</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">If baseline sets a MUX setting, no other audience can set the same setting within scope.</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-MuxRolloutOverlap-Baseline-MUX</li><li>Workstation-Edge-Security-MuxRolloutOverlap-RolloutA-MUX</li><li>Workstation-Edge-Security-MuxRolloutOverlap-RolloutB-MUX</li></ul>
+</td>
+<td valign="top">ipg.err.mux.rolloutoverlap</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">If baseline sets a MUX setting, no other audience can set the same setting within scope.</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX</li><li>Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX</li></ul>
+</td>
+<td valign="top">ipg.err.setting.muxbaselineextra</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">
+<ul>
+<li>Mixed ADD and MUX policies configure the same setting. Is the setting conflict resolution additive or mutually exclusive?</li><li>Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?</li></ul>
+</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-SettingMixedModesA-Baseline-ADD</li><li>Workstation-Edge-Security-SettingMixedModesB-Baseline-MUX</li></ul>
+</td>
+<td valign="top">ipg.err.setting.mixedmodes</td>
+</tr>
+<tr>
+<td valign="top">False</td>
+<td valign="top">Multiple governance namespaces configure the same setting within scope. Which governance namespace should own the setting?</td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-SettingMultiNamespaceA-Baseline-ADD</li><li>Workstation-Edge-UserExperience-SettingMultiNamespaceB-Baseline-ADD</li></ul>
+</td>
+<td valign="top">ipg.err.setting.multins</td>
+</tr>
+</tbody>
+</table>
+<h2>Review Interval Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">DaysUntilReview</th>
+<th align="left">Passed</th>
+<th align="left">Reason</th>
+<th align="left">RelatedPolicy</th>
+</tr>
+<tr>
+<td valign="top">-145</td>
+<td valign="top">False</td>
+<td valign="top">Expired</td>
+<td valign="top">Workstation-Edge-Security-ReviewExpired-Baseline-ADD</td>
+</tr>
+<tr>
+<td valign="top">15</td>
+<td valign="top">False</td>
+<td valign="top">Review date is approaching.</td>
+<td valign="top">Workstation-Edge-Security-ReviewApproaching-Baseline-ADD</td>
+</tr>
+<tr>
+<td valign="top">554</td>
+<td valign="top">False</td>
+<td valign="top">Review date is beyond the allowed interval.</td>
+<td valign="top">Workstation-Edge-Security-ReviewTooFar-Baseline-ADD</td>
+</tr>
+</tbody>
+</table>
+<h2>Scope Overlap Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Groups</th>
+<th align="left">Objects</th>
+<th align="left">Reason</th>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>ConfigurationPolicyScope-Employee</li><li>ConfigurationPolicyScope-Workstation</li></ul>
+</td>
+<td valign="top">IL-7468</td>
+<td valign="top">User or device object is in multiple scopes.</td>
+</tr>
+</tbody>
+</table>
+<h2>Policy Assignment Topology Issues</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse; margin-bottom: 18px;">
+<tbody>
+<tr>
+<th align="left">Groups</th>
+<th align="left">Objects</th>
+<th align="left">Policies</th>
+<th align="left">Reason</th>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>ConfigurationPolicyScope-Workstation</li><li>IPG-ERR-Workstation-InScope-A</li></ul>
+</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddBaselineMulti-Baseline-ADD</td>
+<td valign="top">ADD baseline policy is assigned to multiple groups.</td>
+</tr>
+<tr>
+<td valign="top">ConfigurationPolicyScope-Workstation</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddAudienceScopeTarget-Audience-ADD</td>
+<td valign="top">ADD audience policy is assigned to the scope target group.</td>
+</tr>
+<tr>
+<td valign="top">ConfigurationPolicyScope-Workstation</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxCustomScope-Custom-MUX</td>
+<td valign="top">MUX custom policy is assigned to the scope target group.</td>
+</tr>
+<tr>
+<td valign="top">ConfigurationPolicyScope-Workstation</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-Smartscreen-Default-MUX</td>
+<td valign="top">MUX policy is assigned to multiple groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Clean-Employee-Finance</td>
+<td valign="top"></td>
+<td valign="top">Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD</td>
+<td valign="top">ADD policy is assigned to an empty group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Clean-Employee-Finance</td>
+<td valign="top"></td>
+<td valign="top">Employee-Edge-PlatformIntegration-ExtensionGovernance-Finance-ADD</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Clean-Employee-Legal</td>
+<td valign="top"></td>
+<td valign="top">Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD</td>
+<td valign="top">ADD policy is assigned to an empty group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-Clean-Employee-Legal</td>
+<td valign="top"></td>
+<td valign="top">Employee-Edge-PlatformIntegration-ExtensionGovernance-Legal-ADD</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-EmptyGroup</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddEmptyGroup-Audience-ADD</td>
+<td valign="top">ADD policy is assigned to an empty group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-EmptyGroup</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddEmptyGroup-Audience-ADD</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-EmptyGroup</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX</td>
+<td valign="top">MUX policy is assigned to an empty group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-EmptyGroup</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddAudienceExclude-Audience-ADD</td>
+<td valign="top">ADD audience policy has excluded groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddBaselineExclude-Baseline-ADD</td>
+<td valign="top">ADD baseline policy has excluded groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddNoInclude-Audience-ADD</td>
+<td valign="top">ADD audience policy has excluded groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxBaselineUnexpectedExcl-Baseline-MUX</td>
+<td valign="top">MUX baseline policy has unexpected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxCustomUnexpectedExcl-Custom-MUX</td>
+<td valign="top">MUX custom policy has unexpected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxDefaultUnexpectedExcl-Default-MUX</td>
+<td valign="top">MUX default policy has unexpected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX</td>
+<td valign="top">MUX rollout policy has excluded groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-UnexpectedExclude</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxRolloutExclude-RolloutA-MUX</td>
+<td valign="top">MUX rollout policy has excluded groups.</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>IPG-ERR-Workstation-InScope-A</li><li>IPG-ERR-Workstation-InScope-B</li></ul>
+</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxDefaultMissingExcl-Default-MUX</td>
+<td valign="top">MUX default policy is missing expected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>IPG-ERR-Workstation-InScope-A</li><li>IPG-ERR-Workstation-InScope-B</li></ul>
+</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX</td>
+<td valign="top">MUX policy is assigned to multiple groups.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-A</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddBaselineWrong-Baseline-ADD</td>
+<td valign="top">ADD baseline policy is assigned to the wrong group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-A</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxBaselineMissingExcl-Baseline-MUX</td>
+<td valign="top">MUX baseline policy is missing expected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-A</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxBaselineWrong-Baseline-MUX</td>
+<td valign="top">MUX baseline policy is assigned to the wrong group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-A</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxDefaultWrong-Default-MUX</td>
+<td valign="top">MUX default policy is assigned to the wrong group.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-B</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxCustomMissingExcl-Custom-MUX</td>
+<td valign="top">MUX custom policy is missing expected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-InScope-B</td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxDefaultMissingExcl-Custom-MUX</td>
+<td valign="top">MUX custom policy is missing expected exclusions.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-OutOfScope</td>
+<td valign="top">OUT-OF-SCOPE</td>
+<td valign="top">Workstation-Edge-Security-AddOutOfScope-Audience-ADD</td>
+<td valign="top">ADD policy is assigned to group that has members out of scope.</td>
+</tr>
+<tr>
+<td valign="top">IPG-ERR-Workstation-OutOfScope</td>
+<td valign="top">OUT-OF-SCOPE</td>
+<td valign="top">Workstation-Edge-Security-MuxOutOfScope-Custom-MUX</td>
+<td valign="top">MUX policy is assigned to group that has members out of scope.</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>IPG-ERR-Workstation-Overlap-A</li><li>IPG-ERR-Workstation-Overlap-B</li></ul>
+</td>
+<td valign="top">IL-7468</td>
+<td valign="top"></td>
+<td valign="top">MUX custom audience groups have overlapping members.</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li>IPG-ERR-Workstation-Overlap-A</li><li>IPG-ERR-Workstation-Overlap-B</li></ul>
+</td>
+<td valign="top">IL-7468</td>
+<td valign="top"></td>
+<td valign="top">MUX rollout groups have overlapping members.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddMissingAssignment-Baseline-ADD</td>
+<td valign="top">ADD policy does not have required assignment.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-AddNoInclude-Audience-ADD</td>
+<td valign="top">ADD policy has no group assignment.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-MuxBaselineCoexist-Baseline-MUX</li><li>Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX</li></ul>
+</td>
+<td valign="top">MUX baseline and permanent audience policies coexist.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxBaselineCoexist-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxDefaultOnly-Default-MUX</td>
+<td valign="top">MUX default policy exists without custom audience.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxEmptyGroup-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxMissingDefault-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxMultipleGroups-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxNoInclude-RolloutA-MUX</td>
+<td valign="top">MUX policy has no group assignment.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-MuxOutOfScope-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">
+<ul>
+<li>Workstation-Edge-Security-SettingMuxBaselineExtra-Baseline-MUX</li><li>Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX</li></ul>
+</td>
+<td valign="top">MUX baseline and permanent audience policies coexist.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-SettingMuxBaselineExtra-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-SettingMuxNoBaseDefault-Custom-MUX</td>
+<td valign="top">MUX permanent audience policies exist without default policy.</td>
+</tr>
+<tr>
+<td valign="top"></td>
+<td valign="top"></td>
+<td valign="top">Workstation-Edge-Security-Smartscreen-Default-MUX</td>
+<td valign="top">Policy is assigned to a group that is deleted. Please remove the assignment.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><strong>Documentation:</strong></p>
+<p><a href="https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md">https://github.com/tolvajp/IPG/blob/main/docs/ConfigurationPolicyGovernanceModel.md</a></p>
+</body>
+</html>
+
+--_000_DB5PR07MB11957ADB7D24DC9A46BE678C1D0172DB5PR07MB11957eu_--
